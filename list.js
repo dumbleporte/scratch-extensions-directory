@@ -37,7 +37,7 @@ var extensions = [
     {
         "title": "Browser Info and Language",
         "author": "Scratch Team",
-        "links": "http://scratchx.org/?url=http://thepuzzlegame.github.io/extensions/Browser_Info_and_Language.js#scratch",
+        "links": "http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//Browser_Info_and_Language.js#scratch",
         "descriptions": "Gets browser info such as language",
         "linktitles": "ScratchX"
     },
@@ -79,14 +79,14 @@ var extensions = [
     {
         "title": "Cool helpful things extension",
         "author": "Josh Pullen",
-        "links": "http://scratchx.org/?url=http://thepuzzlegame.github.io/extensions/Cool_helpful_things_extension.js#scratch",
+        "links": "http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//Cool_helpful_things_extension.js#scratch",
         "descriptions": "Math blocks/other features",
         "linktitles": "ScratchX"
     },
     {
         "title": "Data",
         "author": "Thepuzzlegame",
-        "links": "http://scratchx.org/?url=http://thepuzzlegame.github.io/extensions/Data.js#scratch",
+        "links": "http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//Data.js#scratch",
         "descriptions": "Adds data manipulating blocks and string operations",
         "linktitles": "ScratchX"
     },
@@ -121,7 +121,7 @@ var extensions = [
     {
         "title": "Extension Loader",
         "author": "Thepuzzlegame",
-        "links": "http://scratchx.org/?url=http://thepuzzlegame.github.io/extensions/Extension_Loader.js#scratch",
+        "links": "http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//Extension_Loader.js#scratch",
         "descriptions": "Loads extensions from URLs",
         "linktitles": "ScratchX"
     },
@@ -135,7 +135,7 @@ var extensions = [
     {
         "title": "FeedMe RSS fun",
         "author": "powerpoint56",
-        "links": "http://scratchx.org/?url=http://thepuzzlegame.github.io/extensions/FeedMe_RSS_fun.js#scratch",
+        "links": "http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//FeedMe_RSS_fun.js#scratch",
         "descriptions": "Adds functionality from the Google Feed API",
         "linktitles": "ScratchX"
     },
@@ -261,7 +261,7 @@ var extensions = [
     {
         "title": "MathExt",
         "author": "StarStudios23",
-        "links": "http://scratchx.org/?url=http://thepuzzlegame.github.io/extensions/MathExt.js#scratch",
+        "links": "http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//MathExt.js#scratch",
         "descriptions": "Multiple operators and a useful block for getting the hypotenuse of a triangle",
         "linktitles": "ScratchX"
     },
@@ -303,14 +303,14 @@ var extensions = [
     {
         "title": "PhysExt",
         "author": "StarStudios23",
-        "links": "http://scratchx.org/?url=http://thepuzzlegame.github.io/extensions/PhysExt.js#scratch",
+        "links": "http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//PhysExt.js#scratch",
         "descriptions": "Gets bounce ranges for objects",
         "linktitles": "ScratchX"
     },
     {
         "title": "PicoBoard",
         "author": "SCRAXE",
-        "links": "http://scratchx.org/?url=http://thepuzzlegame.github.io/extensions/scraxePicoExtension.js#scratch",
+        "links": "http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//scraxePicoExtension.js#scratch",
         "descriptions": "Connect to PicoBoard with additional features",
         "linktitles": "ScratchX"
     },
@@ -408,14 +408,14 @@ var extensions = [
     {
         "title": "Splendid Strings",
         "author": "BookOwl",
-        "links": "http://scratchx.org/?url=http://thepuzzlegame.github.io/extensions/Splendid_Strings.js#scratch",
+        "links": "http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//Splendid_Strings.js#scratch",
         "descriptions": "Adds blocks for working with strings",
         "linktitles": "ScratchX"
     },
     {
         "title": "StringExt",
         "author": "StarStudios23",
-        "links": "http://scratchx.org/?url=http://thepuzzlegame.github.io/extensions/StringExt.js#scratch",
+        "links": "http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//StringExt.js#scratch",
         "descriptions": "Several string manipulating features",
         "linktitles": "ScratchX"
     },
@@ -429,7 +429,7 @@ var extensions = [
     {
         "title": "Temp Vars and Lists",
         "author": "Zro716",
-        "links": "http://scratchx.org/?url=http://thepuzzlegame.github.io/extensions/Temp_Vars_and_Lists.js#scratch",
+        "links": "http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//Temp_Vars_and_Lists.js#scratch",
         "descriptions": "Temporary variables and lists",
         "linktitles": "ScratchX"
     },
@@ -457,7 +457,7 @@ var extensions = [
     {
         "title": "VarExt",
         "author": "StarStudios23",
-        "links": "http://scratchx.org/?url=http://thepuzzlegame.github.io/extensions/VarExt.js#scratch",
+        "links": "http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//VarExt.js#scratch",
         "descriptions": "Blocks for working with variables",
         "linktitles": "ScratchX"
     },
@@ -478,7 +478,7 @@ var extensions = [
     {
         "title": "WebExt",
         "author": "StarStudios23",
-        "links": "http://scratchx.org/?url=http://thepuzzlegame.github.io/extensions/WebExt.js#scratch",
+        "links": "http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//WebExt.js#scratch",
         "descriptions": "Receives page data and opens urls",
         "linktitles": "ScratchX"
     },
