@@ -34,13 +34,13 @@ var extensions = [
         "descriptions": "Editor rotation!",
         "linktitles": "ScratchX"
     },
-    /*{
+    {
         "title": "Browser Info and Language",
         "author": "andrewjcole",
         "links": "http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//Browser_Info_and_Language.js#scratch",
         "descriptions": "Gets browser info such as language",
         "linktitles": "ScratchX"
-    },*/
+    },
     {
         "title": "Browser Stuff",
         "author": "Scratch Team",
