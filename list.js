@@ -65,133 +65,170 @@ var extensions = [
 		},
 		'description': 'Grabs and reads cloud data from projects'
     },
-    { //next
+    {
 		'title': 'Convert to Boolean',
 		'author': 'savaka',
-		'links': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/convert-to-boolean.js,https://github.com/savaka2/scratch-extensions/wiki/Convert-to-Boolean-extension,http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/convert-to-boolean.sbx',
-		'description': 'Toggleable boolean',
-		'linktitles': 'ScratchX,Doc,Demo'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/convert-to-boolean.js',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Convert-to-Boolean-extension',
+			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/convert-to-boolean.sbx'
+		},
+		'description': 'Toggleable boolean'
     },
     {
 		'title': 'Cookie',
 		'author': 'Gregory Wickham',
-		'links': 'http://scratchx.org/?url=http://gw90.github.io/Complete-Extensions/cookie-extension.js,http://gw90.github.io/scratch-extension/',
-		'description': 'Allows you to use cookies with Scratch',
-		'linktitles': 'ScratchX,Doc'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://gw90.github.io/Complete-Extensions/cookie-extension.js',
+			'Doc': 'http://gw90.github.io/scratch-extension/'
+		},
+		'description': 'Allows you to use cookies with Scratch'
     },
     {
 		'title': 'Cookie Variables',
 		'author': 'djdolphin',
-		'links': 'http://scratchx.org/?url=http://djdolphin.github.io/scratchx/cookievariables.js',
-		'description': 'Enables cookie variables in the editor',
-		'linktitles': 'ScratchX'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://djdolphin.github.io/scratchx/cookievariables.js'
+		},
+		'description': 'Enables cookie variables in the editor'
     },
     {
 		'title': 'Cool helpful things extension',
 		'author': 'Josh Pullen',
-		'links': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//Cool_helpful_things_extension.js',
-		'description': 'Math blocks/other features',
-		'linktitles': 'ScratchX'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//Cool_helpful_things_extension.js'
+		},
+		'description': 'Math blocks/other features'
     },
     {
 		'title': 'Data',
 		'author': 'Thepuzzlegame',
-		'links': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//Data.js',
-		'description': 'Adds data manipulating blocks and string operations',
-		'linktitles': 'ScratchX'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//Data.js'
+		},
+		'description': 'Adds data manipulating blocks and string operations'
     },
     {
 		'title': 'Debugging',
 		'author': 'savaka',
-		'links': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/debugging.js,https://github.com/savaka2/scratch-extensions/wiki/Debugging-extension,http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/debugging.sbx',
-		'description': 'Adds inline comments and a block to print to the console',
-		'linktitles': 'ScratchX,Doc,Demo'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/debugging.js',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Debugging-extension',
+			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/debugging.sbx'
+		},
+		'description': 'Adds inline comments and a block to print to the console'
     },
     {
 		'title': 'EV3 ScratchX Extension',
 		'author': 'codeandcircuit',
-		'links': 'http://scratchx.org/?url=http://kaspesla.github.io/ev3_scratch/ev3_scratch.js,http://kaspesla.github.io/ev3_scratch/,http://kaspesla.github.io/ev3_scratch/examples/EV3_Scratch_Examples.zip',
-		'description': 'Control EV3 bricks over Bluetooth',
-		'linktitles': 'ScratchX,Doc,Demos'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://kaspesla.github.io/ev3_scratch/ev3_scratch.js',
+			'Doc': 'http://kaspesla.github.io/ev3_scratch/',
+			'Demos': 'http://kaspesla.github.io/ev3_scratch/examples/EV3_Scratch_Examples.zip'
+		},
+		'description': 'Control EV3 bricks over Bluetooth'
     },
     {
 		'title': 'Exit ScratchX',
 		'author': 'savaka',
-		'links': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/exit-scratchx.js,https://github.com/savaka2/scratch-extensions/wiki/Exit-ScratchX-extension,http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/exit-scratchx.sbx',
-		'description': 'exits ScratchX editor to homepage with user confirmation',
-		'linktitles': 'ScratchX,Doc,Demo'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/exit-scratchx.js',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Exit-ScratchX-extension',
+			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/exit-scratchx.sbx'
+		},
+		'description': 'exits ScratchX editor to homepage with user confirmation'
     },
     {
 		'title': 'Extended Math',
 		'author': 'Josh Pullen',
-		'links': 'http://scratchx.org/?url=https://cdn.rawgit.com/PullJosh/extended-math/master/extendedMath.js,https://github.com/PullJosh/extended-math',
-		'description': 'Extends the mathematical capabilities of Scratch',
-		'linktitles': 'ScratchX,Doc'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/PullJosh/extended-math/master/extendedMath.js',
+			'Doc': 'https://github.com/PullJosh/extended-math'
+		},
+		'description': 'Extends the mathematical capabilities of Scratch'
     },
     {
 		'title': 'Extension Loader',
 		'author': 'Thepuzzlegame',
-		'links': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//Extension_Loader.js',
-		'description': 'Loads extensions from URLs',
-		'linktitles': 'ScratchX'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//Extension_Loader.js'
+		},
+		'description': 'Loads extensions from URLs'
     },
     {
 		'title': 'Extension Status Getter',
 		'author': 'Znapi',
-		'links': 'http://scratchx.org/?url=http://znapi.github.io/scratchx/extension-status-getter/main.min.js,http://scratchx.org/?url=http://znapi.github.io/scratchx/extension-status-getter/examples/project.sbx,https://github.com/Znapi/scratchx/wiki/Extension-Status-Getter',
-		'description': 'Gets the status code and message of any loaded extension',
-		'linktitles': 'ScratchX,Demo,Doc'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://znapi.github.io/scratchx/extension-status-getter/main.min.js',
+			'Doc': 'https://github.com/Znapi/scratchx/wiki/Extension-Status-Getter',
+			'Demo': 'http://scratchx.org/?url=http://znapi.github.io/scratchx/extension-status-getter/examples/project.sbx'
+		},
+		'description': 'Gets the status code and message of any loaded extension'
     },
     {
 		'title': 'FeedMe RSS fun',
 		'author': 'powerpoint56',
-		'links': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//FeedMe_RSS_fun.js',
-		'description': 'Adds functionality from the Google Feed API',
-		'linktitles': 'ScratchX'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//FeedMe_RSS_fun.js'
+		},
+		'description': 'Adds functionality from the Google Feed API'
     },
     {
 		'title': 'File I/O',
 		'author': 'Znapi',
-		'links': 'http://scratchx.org/?url=http://znapi.github.io/scratchx-file-io/ext.js,http://znapi.github.io/scratchx-file-io/',
-		'description': 'Read,write,and create text files',
-		'linktitles': 'ScratchX,Doc'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://znapi.github.io/scratchx-file-io/ext.js',
+			'Doc': 'http://znapi.github.io/scratchx-file-io/'
+		},
+		'description': 'Read,write,and create text files'
     },
     {
 		'title': 'Firebase Mesh',
 		'author': 'Connor Hudson',
-		'links': 'http://scratchx.org/?url=http://technoboy10.github.io/mesh/mesh.js,http://scratchx.org/?url=http://technoboy10.tk/mesh/mesh.sbx,http://technoboy10.tk/mesh/',
-		'description': 'Broadcast messages to other projects',
-		'linktitles': 'ScratchX,Demo,Doc'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://technoboy10.github.io/mesh/mesh.js',
+			'Doc': 'http://technoboy10.tk/mesh/',
+			'Demo': 'http://scratchx.org/?url=http://technoboy10.tk/mesh/mesh.sbx'
+		},
+		'description': 'Broadcast messages to other projects'
     },
     {
 		'title': 'Gamepad',
 		'author': 'Alyssa Rosenzweig',
-		'links': 'http://scratchx.org/?url=https://cdn.rawgit.com/bobbybee/scratch-gamepad/master/ext.js',
-		'description': 'A thin wrapper around the Gamepad API which supports Xbox 360 controllers,most PS3 controllers,and other non-brand D-Pad controllers',
-		'linktitles': 'ScratchX'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/bobbybee/scratch-gamepad/master/ext.js'
+		},
+		'description': 'A thin wrapper around the Gamepad API which supports Xbox 360 controllers,most PS3 controllers,and other non-brand D-Pad controllers'
     },
     {
 		'title': 'Hash',
 		'author': 'savaka',
-		'links': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/hash.js,https://github.com/savaka2/scratch-extensions/wiki/Hash-extension,http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/hash.sbx',
-		'description': 'Performs hashing algorithms',
-		'linktitles': 'ScratchX,Doc,Demo'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/hash.js',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Hash-extension',
+			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/hash.sbx'
+		},
+		'description': 'Performs hashing algorithms'
     },
     {
 		'title': 'HQ Sound',
 		'author': 'MegaApuTurkUltra',
-		'links': 'http://scratchx.org/?url=https://cdn.rawgit.com/MegaApuTurkUltra/Scratch-HQ-Sound/master/scratch-hqs.ext.js',
-		'description': 'Allows for high quality sound manipulation within Scratch',
-		'linktitles': 'ScratchX'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/MegaApuTurkUltra/Scratch-HQ-Sound/master/scratch-hqs.ext.js'
+		},
+		'description': 'Allows for high quality sound manipulation within Scratch'
     },
     {
 		'title': 'Intel® RealSense™',
 		'author': 'Shachar Oz,Yaron Yanai,Avi Salmon',
-		'links': 'http://scratchx.org/?url=http://intel-realsense-extension-for-scratch.github.io/public/extension/intel_realsense_extension.js,http://scratchx.org/?url=http://intel-realsense-extension-for-scratch.github.io/public/extension/samples/Realsense_Block_Usages.sbx,http://intel-realsense-extension-for-scratch.github.io/',
-		'description': 'Hand Gestures,face tracking,voice commands',
-		'linktitles': 'ScratchX,Demo,Doc'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://intel-realsense-extension-for-scratch.github.io/public/extension/intel_realsense_extension.js',
+			'Doc': 'http://intel-realsense-extension-for-scratch.github.io/',
+			'Demo': 'http://scratchx.org/?url=http://intel-realsense-extension-for-scratch.github.io/public/extension/samples/Realsense_Block_Usages.sbx'
+		},
+		'description': 'Hand Gestures,face tracking,voice commands'
     },
-    {
+    {//next
 		'title': 'ISS Tracker',
 		'author': 'Kreg Hanning',
 		'links': 'http://scratchx.org/?url=https://khanning.github.io/scratch-isstracker-extension/iss_extension.js,http://scratchx.org/?url=http://khanning.github.io/scratch-isstracker-extension/examples/ISS%20Tracker.sbx,http://khanning.github.io/scratch-isstracker-extension/',
