@@ -424,7 +424,7 @@ var extensions = [
 		'author': 'Mrcomputer1',
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://Mrcomputer1.github.io/PrinterExtension/printerextension.js',
-			'Doc': 'http://mrcomputer1.github.io/PrinterExtension/';
+			'Doc': 'http://mrcomputer1.github.io/PrinterExtension/'
 		},
 		'description': 'Lets you print from ScratchX'
 	},
