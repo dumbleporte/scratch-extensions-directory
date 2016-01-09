@@ -180,7 +180,7 @@ var extensions = [
 			'ScratchX': 'http://scratchx.org/?url=http://znapi.github.io/scratchx-file-io/ext.js',
 			'Doc': 'http://znapi.github.io/scratchx-file-io/'
 		},
-		'description': 'Read,write,and create text files'
+		'description': 'Read, write, and create text files'
     },
     {
 		'title': 'Firebase Mesh',
@@ -198,7 +198,7 @@ var extensions = [
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/bobbybee/scratch-gamepad/master/ext.js'
 		},
-		'description': 'A thin wrapper around the Gamepad API which supports Xbox 360 controllers,most PS3 controllers,and other non-brand D-Pad controllers'
+		'description': 'A thin wrapper around the Gamepad API which supports Xbox 360 controllers, most PS3 controllers, and other non-brand D-Pad controllers'
     },
     {
 		'title': 'Hash',
@@ -226,7 +226,7 @@ var extensions = [
 			'Doc': 'http://intel-realsense-extension-for-scratch.github.io/',
 			'Demo': 'http://scratchx.org/?url=http://intel-realsense-extension-for-scratch.github.io/public/extension/samples/Realsense_Block_Usages.sbx'
 		},
-		'description': 'Hand Gestures,face tracking,voice commands'
+		'description': 'Hand Gestures, face tracking, voice commands'
     },
     {
 		'title': 'ISS Tracker',
@@ -427,7 +427,7 @@ var extensions = [
 		'title': 'Scratch Boost',
 		'author': 'iwotastic',
 		'links': 'http://scratchx.org/?url=https://cdn.rawgit.com/Iwotastic/Scratch-Boost/master/src/installer.js,https://github.com/Iwotastic/Scratch-Boost/wiki/Documentation',
-		'description': 'Many blocks for interacting with strings,objects,variables,and even the browser',
+		'description': 'Many blocks for interacting with strings, objects, variables, and even the browser',
 		'linktitles': 'ScratchX,Doc'
     },
     {
@@ -476,7 +476,7 @@ var extensions = [
 		'title': 'Strintory',
 		'author': 'Rumanti',
 		'links': 'http://scratchx.org/?url=http://rumanti.github.io/extensions/strintory.js',
-		'description': 'Reverse,shuffle,or transform your strings into upper/lower cases',
+		'description': 'Reverse, shuffle, or transform your strings into upper/lower cases',
 		'linktitles': 'ScratchX'
     },
     {
@@ -539,7 +539,7 @@ var extensions = [
 		'title': 'Xi - Multi uC Interconnect',
 		'author': 'Alan Yorinks',
 		'links': 'http://scratchx.org/?url=https://MrYsLab.github.io/xi4s.js,http://scratchx.org/?url=https://MrYsLab.github.io/blink.sbx,https://github.com/MrYsLab/xi',
-		'description': 'Simultaneously connect,monitor and control multiple Arduino,BeagleBone Black and Raspberry Pi boards',
+		'description': 'Simultaneously connect, monitor and control multiple Arduino, BeagleBone Black and Raspberry Pi boards',
 		'linktitles': 'ScratchX,Demo,Doc'
     }
 ];
