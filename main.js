@@ -9,7 +9,6 @@ window.onload = function() {
         }
         document.getElementById("directory").innerHTML += '<tr id="item ' + i + '"><td style="width: 150px;">' + extensions[i].title + '</td><td style="width: 80px;">' + extensions[i].author + '</td><td style="width: 40px;">' + linkarea + '</td><td style="width: 650px;">' + extensions[i].descriptions + '</td><tr>';
     }
-    //sorttable.makeSortable(document.getElementById("directory"));
 	
 	/*
     document.getElementById("search").onkeyup = function() {
@@ -29,45 +28,3 @@ window.onload = function() {
     };
 	*/
 };
-
-//for my own use to make updating the list quicker
-function addToList(title, author, linktitles, links, description) {
-    extensions.push();
-    last = extensions.length;
-    extensions[last] = new Object();
-    extensions[last].title = title;
-    extensions.sort(sort_by('title', false, function(a) {
-        return a.toUpperCase()
-    }));
-
-    n = arrayObjectIndexOf(extensions, title, "title");
-    extensions[n].author = author;
-    extensions[n].links = links;
-    extensions[n].descriptions = description;
-    extensions[n].linktitles = linktitles;
-
-    console.log("var extensions = " + JSON.stringify(extensions, null, 4) + ";");
-}
-
-var sort_by = function(field, reverse, primer) {
-    var key = primer ?
-        function(x) {
-            return primer(x[field])
-        } :
-        function(x) {
-            return x[field]
-        };
-
-    reverse = !reverse ? 1 : -1;
-
-    return function(a, b) {
-        return a = key(a), b = key(b), reverse * ((a > b) - (b > a));
-    }
-}
-
-function arrayObjectIndexOf(myArray, searchTerm, property) {
-    for (var i = 0, len = myArray.length; i < len; i++) {
-        if (myArray[i][property] === searchTerm) return i;
-    }
-    return -1;
-}
