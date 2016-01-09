@@ -73,7 +73,7 @@ var extensions = [
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Convert-to-Boolean-extension',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/convert-to-boolean.sbx'
 		},
-		'description': 'Toggleable boolean'
+		'description': 'Allows you to quickly convert booleans output by string reporters to use in blocks with boolean inputs'
 	},
 	{
 		'title': 'Cookie',
@@ -312,7 +312,7 @@ var extensions = [
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Logic-extension',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/logic.sbx'
 		},
-		'description': 'Various logic gates'
+		'description': 'All possible boolean operators for 0-2 inputs'
 	},
 	{
 		'title': 'Make!Sense',
@@ -464,7 +464,7 @@ var extensions = [
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Run-Reporters-extension',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/run-reporters.sbx'
 		},
-		'description': 'Uses the input to do nothing'
+		'description': 'Runs a reporter and ignores its output'
 	},
 	{
 		'title': 'Scratch API',
