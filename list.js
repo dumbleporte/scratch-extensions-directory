@@ -17,7 +17,7 @@ var extensions = [
     },
     {
 		'title': 'Arduino',
-		'author': 'Kreg Hanning,David Mellis',
+		'author': 'Kreg Hanning, David Mellis',
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://khanning.github.io/scratch-arduino-extension/arduino_extension.js',
 			'Doc': 'http://khanning.github.io/scratch-arduino-extension/',
@@ -35,7 +35,7 @@ var extensions = [
     },
     {
 		'title': 'Be Cool',
-		'author': 'djdolphin,Alyssa Rosenzweig',
+		'author': 'djdolphin, Alyssa Rosenzweig',
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://djdolphin.github.io/scratchx/becool.js'
 		},
@@ -220,7 +220,7 @@ var extensions = [
     },
     {
 		'title': 'Intel® RealSense™',
-		'author': 'Shachar Oz,Yaron Yanai,Avi Salmon',
+		'author': 'Shachar Oz, Yaron Yanai, Avi Salmon',
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://intel-realsense-extension-for-scratch.github.io/public/extension/intel_realsense_extension.js',
 			'Doc': 'http://intel-realsense-extension-for-scratch.github.io/',
@@ -293,7 +293,7 @@ var extensions = [
     },
     {
 		'title': 'Make!Sense',
-		'author': 'Stephen Lewis,Deqing Sun,Steven Holmes',
+		'author': 'Stephen Lewis, Deqing Sun, Steven Holmes',
 		'links': 'http://scratchx.org/?url=http://creativecomputerlab.github.io/MakeSenseConnector-1.0.js,http://scratchx.org/?url=http://creativecomputerlab.github.io/DataBufferAnalog.sbx,http://creativecomputerlab.com/makesense.html#datamodeinstructions',
 		'description': 'Sensor interface board and sensors',
 		'linktitles': 'ScratchX,Demo,Doc'
@@ -398,7 +398,7 @@ var extensions = [
     },
     {
 		'title': 'Roamer',
-		'author': 'Kevin Rands,Dave Ewins,Dave Catlin',
+		'author': 'Kevin Rands, Dave Ewins, Dave Catlin',
 		'links': 'http://scratchx.org/?url=http://roamereducationalrobot.github.io/RoamerScratchX/roamer.js,http://scratchx.org/?url=http://roamereducationalrobot.github.io/RoamerScratchX/The%20Scarlet%20Pumpernickel.sbx,http://www.roamer-educational-robot.com/roamer-scratchx-training/',
 		'description': 'Programming Roamer® with ScratchX',
 		'linktitles': 'ScratchX,Demo,Doc'
@@ -426,7 +426,7 @@ var extensions = [
     },
     {
 		'title': 'Scratch3D',
-		'author': 'Stephen Lewis,John Goodwin',
+		'author': 'Stephen Lewis, John Goodwin',
 		'links': 'http://scratchx.org/?url=http://scratch3d.github.io/Scratch3D_Beta/extension/ScratchThreeJS.js,http://scratchx.org/?url=http://scratch3d.github.io/examples/tierOne/HelloWorld.sbx,http://www.scratch3d.org/',
 		'description': 'Fully 3D Environment',
 		'linktitles': 'ScratchX,Demo,Doc'
@@ -496,7 +496,7 @@ var extensions = [
     },
     {
 		'title': 'Twitter',
-		'author': 'Connor Hudson,Kreg Hanning',
+		'author': 'Connor Hudson, Kreg Hanning',
 		'links': 'http://scratchx.org/?url=https://technoboy10.github.io/twitter/extension.js,http://scratchx.org/?url=http://technoboy10.tk/twitter/examples/Fetch%20a%20Tweet.sbx,http://technoboy10.tk/twitter/',
 		'description': 'Use Twitter in your projects',
 		'linktitles': 'ScratchX,Demo,Doc'
