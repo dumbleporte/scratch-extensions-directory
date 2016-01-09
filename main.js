@@ -17,6 +17,9 @@ window.onload = function() {
 		if (obj.links.Demo != undefined) {
 			linkz += '<a href="' + obj.links.Demo + '">Demo</a><br/>';
 		}
+		if (obj.links.Demos != undefined) {
+			linkz += '<a href="' + obj.links.Demos + '">&darr; Demos</a><br/>';
+		}
 		linkz2 = linkz.substring(0, linkz.length - 5);
 		row.innerHTML = "<td>" + obj.title + "</td><td>" + obj.author + "</td><td>" + linkz2 + "</td><td>" + obj.description + "</td>";
 		tbody.appendChild(row);
