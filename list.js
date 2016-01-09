@@ -136,7 +136,7 @@ var extensions = [
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Exit-ScratchX-extension',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/exit-scratchx.sbx'
 		},
-		'description': 'exits ScratchX editor to homepage with user confirmation'
+		'description': 'Exits ScratchX editor to homepage with user confirmation'
 	},
 	{
 		'title': 'Extended Math',
