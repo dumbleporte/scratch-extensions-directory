@@ -1,5 +1,28 @@
 window.onload = function() {
-	// insert script
+	var tbody = document.getElementById('table-location');
+	var row;
+	var obj;
+	var linkz = '';
+	var linkz2 = '';
+	for (i = 0; i < extensions.length; i++) {
+		obj = extensions[0];
+		row = document.createElement('tr');
+		if (obj.links.ScratchX != undefined) {
+			linkz += '<a href="' + obj.links.ScratchX + '">ScratchX</a><br/>';
+		}
+		if (obj.links.Doc != undefined) {
+			linkz += '<a href="' + obj.links.Doc + '">Doc</a><br/>';
+		}
+		if (obj.links.Demo != undefined) {
+			linkz += '<a href="' + obj.links.Demo + '">Demo</a><br/>';
+		}
+		linkz2 = linkz.substring(0, linkz.length - 5);
+		row.innerHTML = "<td>" + obj.title + "</td><td>" + obj.author + "</td><td>" + linkz2 + "</td><td>" + obj.description + "</td>";
+		tbody.appendChild(row);
+	}
+	
+	
+	//search
 	/*
 	document.getElementById("search").onkeyup = function() {
 		_this = this;
