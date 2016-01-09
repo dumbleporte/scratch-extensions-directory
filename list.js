@@ -228,21 +228,27 @@ var extensions = [
 		},
 		'description': 'Hand Gestures,face tracking,voice commands'
     },
-    {//next
+    {
 		'title': 'ISS Tracker',
 		'author': 'Kreg Hanning',
-		'links': 'http://scratchx.org/?url=https://khanning.github.io/scratch-isstracker-extension/iss_extension.js,http://scratchx.org/?url=http://khanning.github.io/scratch-isstracker-extension/examples/ISS%20Tracker.sbx,http://khanning.github.io/scratch-isstracker-extension/',
-		'description': 'Lets you track the progress of the International Space Station in its orbit',
-		'linktitles': 'ScratchX,Demo,Doc'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://khanning.github.io/scratch-isstracker-extension/iss_extension.js',
+			'Doc': 'http://khanning.github.io/scratch-isstracker-extension/',
+			'Demo': 'http://scratchx.org/?url=http://khanning.github.io/scratch-isstracker-extension/examples/ISS%20Tracker.sbx'
+		},
+		'description': 'Lets you track the progress of the International Space Station in its orbit'
     },
     {
 		'title': 'JavaScript',
 		'author': 'savaka',
-		'links': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/javascript.js,https://github.com/savaka2/scratch-extensions/wiki/JavaScript-extension,http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/javascript.sbx',
-		'description': 'Evaluates Javascript',
-		'linktitles': 'ScratchX,Doc,Demo'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/javascript.js',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/JavaScript-extension',
+			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/javascript.sbx'
+		},
+		'description': 'Evaluates Javascript'
     },
-    {
+    {//next
 		'title': 'JavaScript Dialogs',
 		'author': 'savaka',
 		'links': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/javascript-dialogs.js,https://github.com/savaka2/scratch-extensions/wiki/JavaScript-Dialogs-extension,http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/javascript-dialogs.sbx',
