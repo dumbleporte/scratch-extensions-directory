@@ -5,8 +5,9 @@ window.onload = function() {
 	var linkz = '';
 	var linkz2 = '';
 	for (i = 0; i < extensions.length; i++) {
-		obj = extensions[0];
+		obj = extensions[i];
 		row = document.createElement('tr');
+		linkz = '';
 		if (obj.links.ScratchX != undefined) {
 			linkz += '<a href="' + obj.links.ScratchX + '">ScratchX</a><br/>';
 		}
