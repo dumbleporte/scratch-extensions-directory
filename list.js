@@ -2,60 +2,70 @@ var extensions = [
     {
 		'title': 'Alarm extension',
 		'author': 'Scratch Team',
-		'links': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/alarm_extension.js',
-		'description': 'An alarm countdown system',
-		'linktitles': 'ScratchX'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/alarm_extension.js'
+		},
+		'description': 'An alarm countdown system'
     },
     {
 		'title': 'Ambient Light',
 		'author': 'djdolphin',
-		'links': 'http://scratchx.org/?url=http://djdolphin.github.io/scratchx/ambientlight.js',
-		'description': 'Gets reading on ambient light',
-		'linktitles': 'ScratchX'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://djdolphin.github.io/scratchx/ambientlight.js'
+		},
+		'description': 'Gets reading on ambient light'
     },
     {
 		'title': 'Arduino',
 		'author': 'Kreg Hanning,David Mellis',
-		'links': 'http://scratchx.org/?url=http://khanning.github.io/scratch-arduino-extension/arduino_extension.js,http://scratchx.org/?url=http://khanning.github.io/scratch-arduino-extension/examples/Arduino%20Example%20-%20Blink%20an%20LED.sbx,http://khanning.github.io/scratch-arduino-extension/',
-		'description': 'Interact with the physical world using Arduino',
-		'linktitles': 'ScratchX,Demo,Doc'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://khanning.github.io/scratch-arduino-extension/arduino_extension.js',
+			'Doc': 'http://khanning.github.io/scratch-arduino-extension/',
+			'Demo': 'http://scratchx.org/?url=http://khanning.github.io/scratch-arduino-extension/examples/Arduino%20Example%20-%20Blink%20an%20LED.sbx'
+		},
+		'description': 'Interact with the physical world using Arduino'
     },
     {
 		'title': 'Battery Status',
 		'author': 'Connor Hudson',
-		'links': 'http://scratchx.org/?url=http://technoboy10.tk/scratchx/battery.js',
-		'description': 'Reports on current battery status',
-		'linktitles': 'ScratchX'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://technoboy10.tk/scratchx/battery.js'
+		},
+		'description': 'Reports on current battery status'
     },
     {
 		'title': 'Be Cool',
 		'author': 'djdolphin,Alyssa Rosenzweig',
-		'links': 'http://scratchx.org/?url=http://djdolphin.github.io/scratchx/becool.js',
-		'description': 'Editor rotation!',
-		'linktitles': 'ScratchX'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://djdolphin.github.io/scratchx/becool.js'
+		},
+		'description': 'Editor rotation!'
     },
     {
 		'title': 'Browser Info and Language',
 		'author': 'andrewjcole',
-		'links': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//Browser_Info_and_Language.js',
-		'description': 'Gets browser info such as language',
-		'linktitles': 'ScratchX'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions//Browser_Info_and_Language.js'
+		},
+		'description': 'Gets browser info such as language'
     },
     {
 		'title': 'Browser Stuff',
 		'author': 'Scratch Team',
-		'links': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/browser_extension.js',
-		'description': 'Opens JS dialog boxes and new tabs',
-		'linktitles': 'ScratchX'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/browser_extension.js'
+		},
+		'description': 'Opens JS dialog boxes and new tabs'
     },
     {
 		'title': 'Cloud Data',
 		'author': 'Connor Hudson',
-		'links': 'http://scratchx.org/?url=http://technoboy10.tk/scratchx/cloud.js',
-		'description': 'Grabs and reads cloud data from projects',
-		'linktitles': 'ScratchX'
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://technoboy10.tk/scratchx/cloud.js'
+		},
+		'description': 'Grabs and reads cloud data from projects'
     },
-    {
+    { //next
 		'title': 'Convert to Boolean',
 		'author': 'savaka',
 		'links': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/convert-to-boolean.js,https://github.com/savaka2/scratch-extensions/wiki/Convert-to-Boolean-extension,http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/convert-to-boolean.sbx',
