@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>Authors - Scratch Extensions Directory - Savaka's GitHub Page</title>
+		<link rel="stylesheet" href="../savaka-style.css">
+		<script src="../siteswitcherscript.js"></script>
+		<script src="list.js"></script>
+		<script src="people.js"></script>
+		<script>
+			window.onload = function() {
+				var tbody = document.getElementById('table-location');
+				var alphabetical = people;
+				alphabetical.sort();
+				var view = '';
+				var count = 0;
+				var row;
+				var personName = '';
+				for (i = 0; i < alphabetical.length; i++) {
+					personName = alphabetical[i];
+					view = 'index.html?searchname=' + (encodeURI(personName)).replace('%20', '+');
+					count = 0;
+					for (j = 0; j < extensions.length; j++) {
+						if (extensions[j].author.indexOf(personName) != -1) {
+							count++;
+						}
+					}
+					row = document.createElement('tr');
+					row.innerHTML = '<td>' + personName + '</td><td>' + count + '</td><td><a href="' + view + '">View extensions</a></td>';
+					tbody.appendChild(row);
+				}
+			};
+		</script>
+	</head>
+	<body>
+		<div id="header">
+		<a href="../index.html"><img src="../images/savakafull-small.PNG" style="display:inline;"></a><span style="display:inline; font-size:2em; font-weight:bold; vertical-align:50%;"> <a href="javascript:switchSite();">&rarr; Scratch Extensions Directory</a></span> <a href="index.html>"<img src="../images/home-button.png"></a><a href="https://github.com/savaka2/scratch-extensions-directory"><img src="../images/gh.png" style="display:inline;"></a>
+		</div>
+		<div id="siteswitcher" style="display:none;">
+		<h1>Switch Site</h1>
+		<p>GitHub projects:</p>
+		<ul>
+			<li><a href="../scratch-extensions/index.html">Scratch Extensions</a></li>
+			<li><a href="../ext-open/index.html">Ext Open</a></li>
+		</ul>
+		<p><a href="javascript:showMore();">Show more</a></p>
+		<div id="morepages" style="display:none">
+			<ul>
+				<li><a href="../sbx-files/index.html">SBX Files</a></li>
+				<li><a href="../something/index.html">Something</a></li>
+				<li><a href="../scratch-extensions-directory/index.html">Scratch Extensions Directory</a></li>
+			</ul>
+		</div>
+		<p><a href="javascript:switchSite();">Close siteswitcher</a></p>
+		</div>
+		<div id="main">
+		<h1>Extension Authors</h1>
+		<table align="center">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Extensions</th>
+					<th>Link</th>
+				</tr>
+			</thead>
+			<tbody id="table-location">
+			</tbody>
+		</table>
+		</div>
+	</body>
+</html>
