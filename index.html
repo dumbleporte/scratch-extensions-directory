@@ -52,9 +52,18 @@
 							linkz += '<a href="' + obj.links.Demos + '">&darr; Demos</a><br/>';
 						}
 						linkz2 = linkz.substring(0, linkz.length - 5);
-						row.innerHTML = "<td>" + obj.title + "</td><td>" + authorz + "</td><td>" + linkz2 + "</td><td>" + obj.description + "</td>";
+						row.innerHTML = '<td>' + obj.title + '</td><td>' + authorz + '</td><td>' + linkz2 + '</td><td>' + obj.description + '</td>';
 						tbody.appendChild(row);
 					}
+				}
+				if (tbody.innerHTML.length < 5) {
+					var theTable = document.getElementById('tableytable');
+					theTable.style = 'display:none;';
+					var nothing = document.createElement('h3');
+					nothing.style = 'text-align:center;'
+					nothing.innerHTML = 'Filter returned no results.';
+					var div = document.getElementById('main');
+					div.appendChild(nothing);
 				}
 			};
 		</script>
@@ -97,7 +106,7 @@
 			<input type="text" name="searchname" value="" placeholder="Filter by author">
 			<input type="submit" value="Filter">
 		</form><br/>
-		<table align="center">
+		<table id="tableytable" align="center">
 			<thead id="top" class="noselect">
 				<tr>
 					<th>Title</th>
