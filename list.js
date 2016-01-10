@@ -1,7 +1,7 @@
 var extensions = [
 	{
 		'title': 'Alarm extension',
-		'author': 'Scratch Team',
+		'author': ['Scratch Team'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/alarm_extension.js'
 		},
@@ -9,7 +9,7 @@ var extensions = [
 	},
 	{
 		'title': 'Ambient Light',
-		'author': 'djdolphin',
+		'author': ['djdolphin'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://djdolphin.github.io/scratchx/ambientlight.js'
 		},
@@ -17,7 +17,7 @@ var extensions = [
 	},
 	{
 		'title': 'Arduino',
-		'author': 'Kreg Hanning, David Mellis',
+		'author': ['Kreg Hanning', 'David Mellis'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://khanning.github.io/scratch-arduino-extension/arduino_extension.js',
 			'Doc': 'http://khanning.github.io/scratch-arduino-extension/',
@@ -27,7 +27,7 @@ var extensions = [
 	},
 	{
 		'title': 'Battery Status',
-		'author': 'Connor Hudson',
+		'author': ['Connor Hudson'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://technoboy10.tk/scratchx/battery.js'
 		},
@@ -35,7 +35,7 @@ var extensions = [
 	},
 	{
 		'title': 'Be Cool',
-		'author': 'djdolphin, Alyssa Rosenzweig',
+		'author': ['djdolphin', 'Alyssa Rosenzweig'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://djdolphin.github.io/scratchx/becool.js'
 		},
@@ -43,7 +43,7 @@ var extensions = [
 	},
 	{
 		'title': 'Browser Info and Language',
-		'author': 'andrewjcole',
+		'author': ['andrewjcole'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/Browser_Info_and_Language.js'
 		},
@@ -51,7 +51,7 @@ var extensions = [
 	},
 	{
 		'title': 'Browser Stuff',
-		'author': 'Scratch Team',
+		'author': ['Scratch Team'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/browser_extension.js'
 		},
@@ -59,7 +59,7 @@ var extensions = [
 	},
 	{
 		'title': 'Cloud Data',
-		'author': 'Connor Hudson',
+		'author': ['Connor Hudson'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://technoboy10.tk/scratchx/cloud.js'
 		},
@@ -67,7 +67,7 @@ var extensions = [
 	},
 	{
 		'title': 'Convert to Boolean',
-		'author': 'savaka',
+		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/convert-to-boolean.js',
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Convert-to-Boolean-extension',
@@ -77,7 +77,7 @@ var extensions = [
 	},
 	{
 		'title': 'Cookie',
-		'author': 'Gregory Wickham',
+		'author': ['Gregory Wickham'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://gw90.github.io/Complete-Extensions/cookie-extension.js',
 			'Doc': 'http://gw90.github.io/scratch-extension/'
@@ -86,7 +86,7 @@ var extensions = [
 	},
 	{
 		'title': 'Cookie Variables',
-		'author': 'djdolphin',
+		'author': ['djdolphin'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://djdolphin.github.io/scratchx/cookievariables.js'
 		},
@@ -94,7 +94,7 @@ var extensions = [
 	},
 	{
 		'title': 'Cool helpful things extension',
-		'author': 'Josh Pullen',
+		'author': ['Josh Pullen'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/Cool_helpful_things_extension.js'
 		},
@@ -102,7 +102,7 @@ var extensions = [
 	},
 	{
 		'title': 'Data',
-		'author': 'Thepuzzlegame',
+		'author': ['Thepuzzlegame'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/Data.js'
 		},
@@ -110,7 +110,7 @@ var extensions = [
 	},
 	{
 		'title': 'Debugging',
-		'author': 'savaka',
+		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/debugging.js',
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Debugging-extension',
@@ -120,7 +120,7 @@ var extensions = [
 	},
 	{
 		'title': 'EV3 ScratchX Extension',
-		'author': 'codeandcircuit',
+		'author': ['codeandcircuit'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://kaspesla.github.io/ev3_scratch/ev3_scratch.js',
 			'Doc': 'http://kaspesla.github.io/ev3_scratch/',
@@ -130,7 +130,7 @@ var extensions = [
 	},
 	{
 		'title': 'Exit ScratchX',
-		'author': 'savaka',
+		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/exit-scratchx.js',
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Exit-ScratchX-extension',
@@ -140,7 +140,7 @@ var extensions = [
 	},
 	{
 		'title': 'Extended Math',
-		'author': 'Josh Pullen',
+		'author': ['Josh Pullen'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/PullJosh/extended-math/master/extendedMath.js',
 			'Doc': 'https://github.com/PullJosh/extended-math'
@@ -149,7 +149,7 @@ var extensions = [
 	},
 	{
 		'title': 'Extension Loader',
-		'author': 'Thepuzzlegame',
+		'author': ['Thepuzzlegame'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/Extension_Loader.js'
 		},
@@ -157,7 +157,7 @@ var extensions = [
 	},
 	{
 		'title': 'Extension Status Getter',
-		'author': 'Znapi',
+		'author': ['Znapi'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://znapi.github.io/scratchx/extension-status-getter/main.min.js',
 			'Doc': 'https://github.com/Znapi/scratchx/wiki/Extension-Status-Getter',
@@ -167,7 +167,7 @@ var extensions = [
 	},
 	{
 		'title': 'FeedMe RSS fun',
-		'author': 'powerpoint56',
+		'author': ['powerpoint56'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/FeedMe_RSS_fun.js'
 		},
@@ -175,7 +175,7 @@ var extensions = [
 	},
 	{
 		'title': 'File I/O',
-		'author': 'Znapi',
+		'author': ['Znapi'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://znapi.github.io/scratchx-file-io/ext.js',
 			'Doc': 'http://znapi.github.io/scratchx-file-io/'
@@ -184,7 +184,7 @@ var extensions = [
 	},
 	{
 		'title': 'Firebase Mesh',
-		'author': 'Connor Hudson',
+		'author': ['Connor Hudson'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://technoboy10.github.io/mesh/mesh.js',
 			'Doc': 'http://technoboy10.tk/mesh/',
@@ -194,7 +194,7 @@ var extensions = [
 	},
 	{
 		'title': 'Gamepad',
-		'author': 'Alyssa Rosenzweig',
+		'author': ['Alyssa Rosenzweig'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/bobbybee/scratch-gamepad/master/ext.js'
 		},
@@ -202,7 +202,7 @@ var extensions = [
 	},
 	{
 		'title': 'Hash',
-		'author': 'savaka',
+		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/hash.js',
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Hash-extension',
@@ -212,7 +212,7 @@ var extensions = [
 	},
 	{
 		'title': 'HQ Sound',
-		'author': 'MegaApuTurkUltra',
+		'author': ['MegaApuTurkUltra'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/MegaApuTurkUltra/Scratch-HQ-Sound/master/scratch-hqs.ext.js'
 		},
@@ -220,7 +220,7 @@ var extensions = [
 	},
 	{
 		'title': 'Intel® RealSense™',
-		'author': 'Shachar Oz, Yaron Yanai, Avi Salmon',
+		'author': ['Shachar Oz', 'Yaron Yanai', 'Avi Salmon'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://intel-realsense-extension-for-scratch.github.io/public/extension/intel_realsense_extension.js',
 			'Doc': 'http://intel-realsense-extension-for-scratch.github.io/',
@@ -230,7 +230,7 @@ var extensions = [
 	},
 	{
 		'title': 'ISS Tracker',
-		'author': 'Kreg Hanning',
+		'author': ['Kreg Hanning'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://khanning.github.io/scratch-isstracker-extension/iss_extension.js',
 			'Doc': 'http://khanning.github.io/scratch-isstracker-extension/',
@@ -240,7 +240,7 @@ var extensions = [
 	},
 	{
 		'title': 'JavaScript',
-		'author': 'savaka',
+		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/javascript.js',
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/JavaScript-extension',
@@ -250,7 +250,7 @@ var extensions = [
 	},
 	{
 		'title': 'JavaScript Dialogs',
-		'author': 'savaka',
+		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/javascript-dialogs.js',
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/JavaScript-Dialogs-extension',
@@ -260,7 +260,7 @@ var extensions = [
 	},
 	{
 		'title': 'Joystick',
-		'author': 'Scratch Team',
+		'author': ['Scratch Team'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/joystickExtension.js'
 		},
@@ -268,7 +268,7 @@ var extensions = [
 	},
 	{
 		'title': 'Leapmotion',
-		'author': 'Kreg Hanning',
+		'author': ['Kreg Hanning'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://khanning.github.io/scratch-leapmotion-extension/leapmotion_extension.js',
 			'Doc': 'http://khanning.github.io/scratch-leapmotion-extension/',
@@ -278,7 +278,7 @@ var extensions = [
 	},
 	{
 		'title': 'Link Opener',
-		'author': 'savaka',
+		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/link-opener.js',
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Link-Opener-extension',
@@ -288,7 +288,7 @@ var extensions = [
 	},
 	{
 		'title': 'littleBits',
-		'author': 'Kreg Hanning',
+		'author': ['Kreg Hanning'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://khanning.github.io/scratch-littlebits-extension/littlebits_extension.js',
 			'Doc': 'http://khanning.github.io/scratch-littlebits-extension/',
@@ -298,7 +298,7 @@ var extensions = [
 	},
 	{
 		'title': 'Local Storage',
-		'author': 'Scratch Team',
+		'author': ['Scratch Team'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/localstorage_extension.js'
 		},
@@ -306,7 +306,7 @@ var extensions = [
 	},
 	{
 		'title': 'Logic',
-		'author': 'savaka',
+		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/logic.js',
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Logic-extension',
@@ -316,7 +316,7 @@ var extensions = [
 	},
 	{
 		'title': 'Make!Sense',
-		'author': 'Stephen Lewis, Deqing Sun, Steven Holmes',
+		'author': ['Stephen Lewis', 'Deqing Sun', 'Steven Holmes'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://creativecomputerlab.github.io/MakeSenseConnector-1.0.js',
 			'Doc': 'http://creativecomputerlab.com/makesense.html#datamodeinstructions',
@@ -326,7 +326,7 @@ var extensions = [
 	},
 	{
 		'title': 'Math',
-		'author': 'Gregory Wickham',
+		'author': ['Gregory Wickham'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://gw90.github.io/Complete-Extensions/math-extension.js',
 			'Doc': 'http://gw90.github.io/scratch-extension/'
@@ -335,7 +335,7 @@ var extensions = [
 	},
 	{
 		'title': 'MathExt',
-		'author': 'StarStudios23',
+		'author': ['StarStudios23'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/MathExt.js'
 		},
@@ -343,7 +343,7 @@ var extensions = [
 	},
 	{
 		'title': 'MCPI-Scratch',
-		'author': 'jrot',
+		'author': ['jrot'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/jbaragry/mcpi-scratch/master/mcpi-scratch.js',
 			'Doc': 'http://jbaragry.github.io/mcpi-scratch/'
@@ -352,7 +352,7 @@ var extensions = [
 	},
 	{
 		'title': 'Mesh',
-		'author': 'Alyssa Rosenzweig',
+		'author': ['Alyssa Rosenzweig'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/bobbybee/mesh-2.0/master/ext.js'
 		},
@@ -360,7 +360,7 @@ var extensions = [
 	},
 	{
 		'title': 'Minecraft Server Checker',
-		'author': 'Mrcomputer1',
+		'author': ['Mrcomputer1'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://mrcomputer1.github.io/MinecraftServerCheckerExtension/MinecraftExtension.js',
 			'Doc': 'http://mrcomputer1.github.io/MinecraftServerCheckerExtension/'
@@ -369,7 +369,7 @@ var extensions = [
 	},
 	{
 		'title': 'More Math',
-		'author': 'savaka',
+		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/more-math.js',
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/More-Math-extension'
@@ -378,7 +378,7 @@ var extensions = [
 	},
 	{
 		'title': 'More Operators',
-		'author': 'savaka',
+		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/more-operators.js',
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/More-Operators-extension'
@@ -389,7 +389,7 @@ var extensions = [
 	},
 	{
 		'title': 'PhysExt',
-		'author': 'StarStudios23',
+		'author': ['StarStudios23'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/PhysExt.js'
 		},
@@ -397,7 +397,7 @@ var extensions = [
 	},
 	{
 		'title': 'PicoBoard',
-		'author': 'SCRAXE',
+		'author': ['SCRAXE'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/scraxePicoExtension.js'
 		},
@@ -405,7 +405,7 @@ var extensions = [
 	},
 	{
 		'title': 'PicoBoard',
-		'author': 'Scratch Team',
+		'author': ['Scratch Team'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/picoExtension.js'
 		},
@@ -413,7 +413,7 @@ var extensions = [
 	},
 	{
 		'title': 'Power Extension',
-		'author': 'Scratch Team',
+		'author': ['Scratch Team'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/power_extension.js'
 		},
@@ -421,7 +421,7 @@ var extensions = [
 	},
 	{
 		'title': 'Printer Extension',
-		'author': 'Mrcomputer1',
+		'author': ['Mrcomputer1'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://Mrcomputer1.github.io/PrinterExtension/printerextension.js',
 			'Doc': 'http://mrcomputer1.github.io/PrinterExtension/'
@@ -430,7 +430,7 @@ var extensions = [
 	},
 	{
 		'title': 'Random wait Extension',
-		'author': 'Scratch Team',
+		'author': ['Scratch Team'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/random_wait_extension.js'
 		},
@@ -438,7 +438,7 @@ var extensions = [
 	},
 	{
 		'title': 'rb4s - a controller for the redbot',
-		'author': 'Alan Yorinks',
+		'author': ['Alan Yorinks'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://MrYsLab.github.io/rb4s/rb4s.js',
 			'Doc': 'https://github.com/MrYsLab/rb4s/wiki',
@@ -448,7 +448,7 @@ var extensions = [
 	},
 	{
 		'title': 'Roamer',
-		'author': 'Kevin Rands, Dave Ewins, Dave Catlin',
+		'author': ['Kevin Rands', 'Dave Ewins', 'Dave Catlin'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://roamereducationalrobot.github.io/RoamerScratchX/roamer.js',
 			'Doc': 'http://www.roamer-educational-robot.com/roamer-scratchx-training/',
@@ -458,7 +458,7 @@ var extensions = [
 	},
 	{
 		'title': 'Run Reporters',
-		'author': 'savaka',
+		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/run-reporters.js',
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Run-Reporters-extension',
@@ -468,7 +468,7 @@ var extensions = [
 	},
 	{
 		'title': 'Scratch API',
-		'author': 'savaka',
+		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/scratch-api.js',
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Scratch-API-extension',
@@ -478,7 +478,7 @@ var extensions = [
 	},
 	{
 		'title': 'Scratch Boost',
-		'author': 'iwotastic',
+		'author': ['iwotastic'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/Iwotastic/Scratch-Boost/master/src/installer.js',
 			'Doc': 'https://github.com/Iwotastic/Scratch-Boost/wiki/Documentation'
@@ -487,7 +487,7 @@ var extensions = [
 	},
 	{
 		'title': 'Scratch3D',
-		'author': 'Stephen Lewis, John Goodwin',
+		'author': ['Stephen Lewis', 'John Goodwin'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://scratch3d.github.io/Scratch3D_Beta/extension/ScratchThreeJS.js',
 			'Doc': 'http://scratchx.org/?url=http://scratch3d.github.io/examples/tierOne/HelloWorld.sbx',
@@ -497,7 +497,7 @@ var extensions = [
 	},
 	{
 		'title': 'Search extension',
-		'author': 'Mrcomputer1',
+		'author': ['Mrcomputer1'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://mrcomputer1extensions.github.io/SearchExtension/SearchExtension.js',
 			'Doc': 'http://mrcomputer1extensions.github.io/SearchExtension/'
@@ -506,7 +506,7 @@ var extensions = [
 	},
 	{
 		'title': 'Sound Synthesizer',
-		'author': 'Eric Rosenbaum',
+		'author': ['Eric Rosenbaum'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://ericrosenbaum.github.io/tone-synth-extension/tone-synth.js',
 			'Doc': 'http://ericrosenbaum.github.io/tone-synth-extension/',
@@ -516,7 +516,7 @@ var extensions = [
 	},
 	{
 		'title': 'Speech to Text',
-		'author': 'Scratch Team',
+		'author': ['Scratch Team'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/speech_to_text_extension.js'
 		},
@@ -524,7 +524,7 @@ var extensions = [
 	},
 	{
 		'title': 'Splendid Strings',
-		'author': 'BookOwl',
+		'author': ['BookOwl'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/Splendid_Strings.js'
 		},
@@ -532,7 +532,7 @@ var extensions = [
 	},
 	{
 		'title': 'StringExt',
-		'author': 'StarStudios23',
+		'author': ['StarStudios23'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/StringExt.js'
 		},
@@ -540,7 +540,7 @@ var extensions = [
 	},
 	{
 		'title': 'Strintory',
-		'author': 'Rumanti',
+		'author': ['Rumanti'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://rumanti.github.io/extensions/strintory.js'
 		},
@@ -548,7 +548,7 @@ var extensions = [
 	},
 	{
 		'title': 'Temp Vars and Lists',
-		'author': 'Zro716',
+		'author': ['Zro716'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/Temp_Vars_and_Lists.js'
 		},
@@ -556,7 +556,7 @@ var extensions = [
 	},
 	{
 		'title': 'Text Stuff',
-		'author': 'savaka',
+		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/text-stuff.js',
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Text-Stuff-extension',
@@ -566,7 +566,7 @@ var extensions = [
 	},
 	{
 		'title': 'Text to Speech',
-		'author': 'Sayamindu Dasgupta',
+		'author': ['Sayamindu Dasgupta'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://sayamindu.github.io/scratch-extensions/text-to-speech/text_to_speech_extension.js',
 			'Doc': 'http://sayamindu.github.io/scratch-extensions/text-to-speech/',
@@ -576,7 +576,7 @@ var extensions = [
 	},
 	{
 		'title': 'Twitter',
-		'author': 'Connor Hudson, Kreg Hanning',
+		'author': ['Connor Hudson', 'Kreg Hanning'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://technoboy10.github.io/twitter/extension.js',
 			'Doc': 'http://technoboy10.tk/twitter/',
@@ -594,7 +594,7 @@ var extensions = [
 	},
 	{
 		'title': 'Weather',
-		'author': 'mxsscott',
+		'author': ['mxsscott'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://mscott.cx/scratchext/exts/weather.js',
 			'Doc': 'https://github.com/mxsscott/scratchext'
@@ -603,7 +603,7 @@ var extensions = [
 	},
 	{
 		'title': 'Weather Extension',
-		'author': 'Scratch Team',
+		'author': ['Scratch Team'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/weather_extension.js'
 		},
@@ -611,7 +611,7 @@ var extensions = [
 	},
 	{
 		'title': 'WebExt',
-		'author': 'StarStudios23',
+		'author': ['StarStudios23'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/WebExt.js'
 		},
@@ -619,7 +619,7 @@ var extensions = [
 	},
 	{
 		'title': 'Xi - Multi uC Interconnect',
-		'author': 'Alan Yorinks',
+		'author': ['Alan Yorinks'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://MrYsLab.github.io/xi4s.js',
 			'Doc': 'https://github.com/MrYsLab/xi',

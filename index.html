@@ -11,11 +11,13 @@
 				var tbody = document.getElementById('table-location');
 				var row;
 				var obj;
+				var authorz = '';
 				var linkz = '';
 				var linkz2 = '';
 				for (i = 0; i < extensions.length; i++) {
 					obj = extensions[i];
 					row = document.createElement('tr');
+					authorz = obj.author.join(', ');
 					linkz = '';
 					if (obj.links.ScratchX != undefined) {
 						linkz += '<a href="' + obj.links.ScratchX + '">ScratchX</a><br/>';
@@ -30,7 +32,7 @@
 						linkz += '<a href="' + obj.links.Demos + '">&darr; Demos</a><br/>';
 					}
 					linkz2 = linkz.substring(0, linkz.length - 5);
-					row.innerHTML = "<td>" + obj.title + "</td><td>" + obj.author + "</td><td>" + linkz2 + "</td><td>" + obj.description + "</td>";
+					row.innerHTML = "<td>" + obj.title + "</td><td>" + authorz + "</td><td>" + linkz2 + "</td><td>" + obj.description + "</td>";
 					tbody.appendChild(row);
 				}
 			};
