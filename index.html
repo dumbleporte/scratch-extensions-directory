@@ -5,10 +5,19 @@
 		<title>Scratch Extensions Directory - Savaka's GitHub Page</title>
 		<link rel="stylesheet" href="../savaka-style.css">
 		<script src="../siteswitcherscript.js"></script>
+		<script src="../savaka2.github.io/querystring-object.js"></script>
 		<script src="list.js"></script>
 		<script>
 			window.onload = function() {
 				var tbody = document.getElementById('table-location');
+				var querystring = queryStringObj(location.search);
+				var filtered = (querystring.searchname != undefined);
+				var lowerlist = [];
+				if (filtered) {
+					var para = document.getElementById('filter-notice');
+					para.innerHTML = 'Directory currently filtered by author "' + querystring.searchname.replace('+', ' ') + '" <a href="index.html">Clear filter</a>'; 
+				}
+				var thingy = true;
 				var row;
 				var obj;
 				var authorz = '';
@@ -16,24 +25,36 @@
 				var linkz2 = '';
 				for (i = 0; i < extensions.length; i++) {
 					obj = extensions[i];
-					row = document.createElement('tr');
-					authorz = obj.author.join(', ');
-					linkz = '';
-					if (obj.links.ScratchX != undefined) {
-						linkz += '<a href="' + obj.links.ScratchX + '">ScratchX</a><br/>';
+					thingy = true;
+					if (filtered) {
+						lowerlist = [];
+						for (j = 0; j < obj.author.length; j++) {
+							lowerlist.push((obj.author[j]).toLowerCase());
+						}
+						if (lowerlist.indexOf((querystring.searchname.replace('+', ' ')).toLowerCase()) == -1) {
+							thingy = false;
+						}
 					}
-					if (obj.links.Doc != undefined) {
-						linkz += '<a href="' + obj.links.Doc + '">Doc</a><br/>';
+					if (thingy) {
+						row = document.createElement('tr');
+						authorz = obj.author.join(', ');
+						linkz = '';
+						if (obj.links.ScratchX != undefined) {
+							linkz += '<a href="' + obj.links.ScratchX + '">ScratchX</a><br/>';
+						}
+						if (obj.links.Doc != undefined) {
+							linkz += '<a href="' + obj.links.Doc + '">Doc</a><br/>';
+						}
+						if (obj.links.Demo != undefined) {
+							linkz += '<a href="' + obj.links.Demo + '">Demo</a><br/>';
+						}
+						if (obj.links.Demos != undefined) {
+							linkz += '<a href="' + obj.links.Demos + '">&darr; Demos</a><br/>';
+						}
+						linkz2 = linkz.substring(0, linkz.length - 5);
+						row.innerHTML = "<td>" + obj.title + "</td><td>" + authorz + "</td><td>" + linkz2 + "</td><td>" + obj.description + "</td>";
+						tbody.appendChild(row);
 					}
-					if (obj.links.Demo != undefined) {
-						linkz += '<a href="' + obj.links.Demo + '">Demo</a><br/>';
-					}
-					if (obj.links.Demos != undefined) {
-						linkz += '<a href="' + obj.links.Demos + '">&darr; Demos</a><br/>';
-					}
-					linkz2 = linkz.substring(0, linkz.length - 5);
-					row.innerHTML = "<td>" + obj.title + "</td><td>" + authorz + "</td><td>" + linkz2 + "</td><td>" + obj.description + "</td>";
-					tbody.appendChild(row);
 				}
 			};
 		</script>
@@ -71,6 +92,11 @@
 			<li><a href="https://scratch.mit.edu/discuss/topic/115258/#reply">Click here</a> to submit your extension if you hate GitHub (like I used to).</li>
 		</ul>
 		<p style="text-align:center; background-color:yellow; padding:5px; border-radius:6px; color:black;"><span class="b">Disclaimer:</span> Extensions listed on this site are not tested by me or otherwise guaranteed safe.</p>
+		<p id="filter-notice"></p>
+		<form action="index.html">
+			<input type="text" name="searchname" value="" placeholder="Filter by author">
+			<input type="submit" value="Filter">
+		</form>
 		<table align="center">
 			<thead id="top" class="noselect">
 				<tr>
