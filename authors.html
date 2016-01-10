@@ -9,6 +9,10 @@
 		<script src="people.js"></script>
 		<script>
 			window.onload = function() {
+				var theTable = document.getElementById('tableytable');
+				theTable.style = 'display:initial;';
+				var theLoading = document.getElementById('loading');
+				theLoading.style = 'display:none;';
 				var tbody = document.getElementById('table-location');
 				var alphabetical = people;
 				alphabetical.sort();
@@ -55,7 +59,8 @@
 		</div>
 		<div id="main">
 		<h1>Extension Authors</h1>
-		<table align="center">
+		<h3 id="loading">Loading authors...</h3>
+		<table id="tableytable" align="center" style="display:none;">
 			<thead>
 				<tr>
 					<th>Name</th>
