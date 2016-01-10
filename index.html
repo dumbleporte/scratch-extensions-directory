@@ -19,7 +19,7 @@
 				var lowerlist = [];
 				if (filtered) {
 					var para = document.getElementById('filter-notice');
-					var searchTerm = decodeURI((querystring.searchname.replace('+', '%20')).replace('%2B', '+'));
+					var searchTerm = querystring.searchname.replace('+', ' ');
 					para.innerHTML = 'Directory currently filtered by author "' + searchTerm + '" <a href="index.html">Clear filter</a>'; 
 				}
 				var thingy = true;
