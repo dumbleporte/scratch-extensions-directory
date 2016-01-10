@@ -716,7 +716,7 @@ var extensions = [
 	},
 	{
 		'title': 'VarExt',
-		'author': 'StarStudios23',
+		'author': ['StarStudios23'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/VarExt.js',
 			'JavaScript': 'extensions/VarExt.js'//,
