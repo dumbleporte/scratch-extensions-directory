@@ -15,7 +15,8 @@
 				var lowerlist = [];
 				if (filtered) {
 					var para = document.getElementById('filter-notice');
-					para.innerHTML = 'Directory currently filtered by author "' + querystring.searchname.replace('+', ' ') + '" <a href="index.html">Clear filter</a>'; 
+					var searchTerm = decodeURI((querystring.searchname.replace('+', '%20')).replace('%2B', '+'));
+					para.innerHTML = 'Directory currently filtered by author "' + searchTerm + '" <a href="index.html">Clear filter</a>'; 
 				}
 				var thingy = true;
 				var row;
@@ -31,7 +32,7 @@
 						for (j = 0; j < obj.author.length; j++) {
 							lowerlist.push((obj.author[j]).toLowerCase());
 						}
-						if (lowerlist.indexOf((querystring.searchname.replace('+', ' ')).toLowerCase()) == -1) {
+						if (lowerlist.indexOf(searchTerm.toLowerCase()) == -1) {
 							thingy = false;
 						}
 					}
