@@ -12,7 +12,7 @@
 				var theTable = document.getElementById('tableytable');
 				theTable.style = 'display:initial;';
 				var theLoading = document.getElementById('loading');
-				theLoading.style = 'text-align:center; display:none;';
+				theLoading.style = 'display:none;';
 				var tbody = document.getElementById('table-location');
 				var querystring = queryStringObj(location.search);
 				var filtered = (querystring.searchname != undefined);
@@ -66,8 +66,7 @@
 				}
 				if (tbody.innerHTML.length < 5) {
 					theTable.style = 'display:none;';
-					var nothing = document.createElement('h3');
-					nothing.style = 'text-align:center;'
+					var nothing = document.createElement('h2');
 					nothing.innerHTML = 'Filter returned no results.';
 					var div = document.getElementById('main');
 					div.appendChild(nothing);
@@ -122,7 +121,7 @@
 			<input type="submit" value="Filter">
 		</form>
 		<a href="authors.html">Select author from list</a><br/><br/>
-		<h3 id="loading" style="text-align:center;">Loading extensions...</h3>
+		<h2 id="loading">Loading extensions...</h2>
 		<table id="tableytable" align="center" style="display:none;">
 			<thead>
 				<tr>
