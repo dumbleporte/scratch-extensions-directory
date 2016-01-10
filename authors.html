@@ -6,7 +6,6 @@
 		<link rel="stylesheet" href="../savaka-style.css">
 		<script src="../siteswitcherscript.js"></script>
 		<script src="list.js"></script>
-		<script src="people.js"></script>
 		<script>
 			window.onload = function() {
 				var theTable = document.getElementById('tableytable');
@@ -14,18 +13,27 @@
 				var theLoading = document.getElementById('loading');
 				theLoading.style = 'display:none;';
 				var tbody = document.getElementById('table-location');
-				var alphabetical = people;
-				alphabetical.sort();
+				var users = [];
+				var currentAuthors = [];
+				for (i = 0; i < extensions.length; i++) {
+					currentAuthors = extensions[i].author;
+					for (l = 0; l < currentAuthors.length; l++) {
+						if (users.indexOf(currentAuthors[l]) == -1) {
+							users.push(currentAuthors[l]);
+						}
+					}
+				}
+				users.sort();
 				var view = '';
 				var count = 0;
 				var row;
 				var personName = '';
-				for (i = 0; i < alphabetical.length; i++) {
-					personName = alphabetical[i];
+				for (j = 0; j < users.length; j++) {
+					personName = users[j];
 					view = 'index.html?searchname=' + (encodeURI(personName)).replace('%20', '+');
 					count = 0;
-					for (j = 0; j < extensions.length; j++) {
-						if (extensions[j].author.indexOf(personName) != -1) {
+					for (k = 0; k < extensions.length; k++) {
+						if (extensions[k].author.indexOf(personName) != -1) {
 							count++;
 						}
 					}
