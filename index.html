@@ -10,8 +10,7 @@
 		<script>
 			window.onload = function() {
 				var theTable = document.getElementById('tableytable');
-				theTable.style = 'display:initial;';
-				theTable.align = 'center';
+				theTable.style = 'display:initial; margin-left:auto; margin-right:auto;';
 				var theLoading = document.getElementById('loading');
 				theLoading.style = 'text-align:center; display:none;';
 				var tbody = document.getElementById('table-location');
@@ -124,7 +123,7 @@
 		</form>
 		<a href="authors.html">Select author from list</a><br/><br/>
 		<h3 id="loading" style="text-align:center;">Loading extensions...</h3>
-		<table id="tableytable" align="center" style="display:none;">
+		<table id="tableytable" align="center" style="display:none; margin-left:auto; margin-right:auto;">
 			<thead>
 				<tr>
 					<th>Title</th>
