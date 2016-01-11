@@ -8,10 +8,6 @@
 		<script src="list.js"></script>
 		<script>
 			window.onload = function() {
-				var theTable = document.getElementById('tableytable');
-				theTable.style = 'display:initial;';
-				var theLoading = document.getElementById('loading');
-				theLoading.style = 'display:none;';
 				var tbody = document.getElementById('table-location');
 				var users = [];
 				var currentAuthors = [];
@@ -67,8 +63,7 @@
 		</div>
 		<div id="main">
 		<h1>Extension Authors</h1>
-		<h2 id="loading">Loading authors...</h2>
-		<table id="tableytable" align="center" style="display:none;">
+		<table id="tableytable">
 			<thead>
 				<tr>
 					<th>Name</th>
