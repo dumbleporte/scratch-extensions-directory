@@ -128,8 +128,8 @@ var extensions = [
 		'title': 'Data',
 		'author': ['Thepuzzlegame'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/Data.js',
-			'JavaScript': 'extensions/Data.js'//,
+			'ScratchX': 'http://scratchx.org/?url=http://thepuzzlegame.github.io/extensions/Data.js',
+			'JavaScript': 'http://thepuzzlegame.github.io/extensions/Data.js'//,
 			//'GitHub': ''
 		},
 		'description': 'Adds data manipulating blocks and string operations'
@@ -185,8 +185,8 @@ var extensions = [
 		'title': 'Extension Loader',
 		'author': ['Thepuzzlegame'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/Extension_Loader.js',
-			'JavaScript': 'extensions/Extension_Loader.js'//,
+			'ScratchX': 'http://scratchx.org/?url=http://thepuzzlegame.github.io/extensions/Extension_Loader.js',
+			'JavaScript': 'http://thepuzzlegame.github.io/extensions/Extension_Loader.js'//,
 			//'GitHub': ''
 		},
 		'description': 'Loads extensions from URLs'
