@@ -60,6 +60,9 @@
 						if (obj.links.JavaScript != undefined) {
 							linkz += '<a href="' + obj.links.JavaScript + '">JavaScript</a><br/>';
 						}
+						if (obj.links.GitHub != undefined) {
+							linkz += '<a href="' + obj.links.GitHub + '">GitHub</a><br/>';
+						}
 						linkz2 = linkz.substring(0, linkz.length - 5);
 						row.innerHTML = '<td>' + obj.title + '</td><td>' + authorz + '</td><td>' + linkz2 + '</td><td>' + obj.description + '</td>';
 						tbody.appendChild(row);
