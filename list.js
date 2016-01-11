@@ -130,7 +130,7 @@ var extensions = [
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://thepuzzlegame.github.io/extensions/Data.js',
 			'JavaScript': 'http://thepuzzlegame.github.io/extensions/Data.js',
-			'GitHub': ''
+			'GitHub': 'https://github.com/Thepuzzlegame/Thepuzzlegame.github.io/blob/master/extensions/Data.js'
 		},
 		'description': 'Adds data manipulating blocks and string operations'
 	},
@@ -187,7 +187,7 @@ var extensions = [
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://thepuzzlegame.github.io/extensions/Extension_Loader.js',
 			'JavaScript': 'http://thepuzzlegame.github.io/extensions/Extension_Loader.js',
-			'GitHub': ''
+			'GitHub': 'https://github.com/Thepuzzlegame/Thepuzzlegame.github.io/blob/master/extensions/Extension_Loader.js'
 		},
 		'description': 'Loads extensions from URLs'
 	},
@@ -199,7 +199,7 @@ var extensions = [
 			'Doc': 'https://github.com/Znapi/scratchx/wiki/Extension-Status-Getter',
 			'Demo': 'http://scratchx.org/?url=http://znapi.github.io/scratchx/extension-status-getter/examples/project.sbx',
 			'JavaScript': 'http://znapi.github.io/scratchx/extension-status-getter/main.min.js',
-			'GitHub': ''
+			'GitHub': 'https://github.com/Znapi/scratchx/blob/gh-pages/extension-status-getter/main.min.js'
 		},
 		'description': 'Gets the status code and message of any loaded extension'
 	},
@@ -209,7 +209,7 @@ var extensions = [
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/FeedMe_RSS_fun.js',
 			'JavaScript': 'extensions/FeedMe_RSS_fun.js',
-			'GitHub': ''
+			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/FeedMe_RSS_fun.js'
 		},
 		'description': 'Adds functionality from the Google Feed API'
 	},
@@ -220,7 +220,7 @@ var extensions = [
 			'ScratchX': 'http://scratchx.org/?url=http://znapi.github.io/scratchx-file-io/ext.js',
 			'Doc': 'http://znapi.github.io/scratchx-file-io/',
 			'JavaScript': 'http://znapi.github.io/scratchx-file-io/ext.js',
-			'GitHub': ''
+			'GitHub': 'https://github.com/Znapi/scratchx-file-io/blob/gh-pages/ext.js'
 		},
 		'description': 'Read, write, and create text files'
 	},
@@ -232,7 +232,7 @@ var extensions = [
 			'Doc': 'http://technoboy10.tk/mesh/',
 			'Demo': 'http://scratchx.org/?url=http://technoboy10.tk/mesh/mesh.sbx',
 			'JavaScript': 'http://technoboy10.github.io/mesh/mesh.js',
-			'GitHub': ''
+			'GitHub': 'https://github.com/technoboy10/mesh/blob/gh-pages/mesh.js'
 		},
 		'description': 'Broadcast messages to other projects'
 	},
@@ -242,7 +242,7 @@ var extensions = [
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/bobbybee/scratch-gamepad/master/ext.js',
 			'JavaScript': 'https://cdn.rawgit.com/bobbybee/scratch-gamepad/master/ext.js',
-			'GitHub': ''
+			'GitHub': 'https://github.com/bobbybee/scratch-gamepad/blob/master/ext.js'
 		},
 		'description': 'A thin wrapper around the Gamepad API which supports Xbox 360 controllers, most PS3 controllers, and other non-brand D-Pad controllers'
 	},
@@ -254,7 +254,7 @@ var extensions = [
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Hash-extension',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/hash.sbx',
 			'JavaScript': '../scratch-extensions/hash.js',
-			'GitHub': ''
+			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/hash.js'
 		},
 		'description': 'Performs hashing algorithms'
 	},
@@ -264,7 +264,7 @@ var extensions = [
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/MegaApuTurkUltra/Scratch-HQ-Sound/master/scratch-hqs.ext.js',
 			'JavaScript': 'https://cdn.rawgit.com/MegaApuTurkUltra/Scratch-HQ-Sound/master/scratch-hqs.ext.js',
-			'GitHub': ''
+			'GitHub': 'https://github.com/MegaApuTurkUltra/Scratch-HQ-Sound/blob/master/scratch-hqs.ext.js'
 		},
 		'description': 'Allows for high quality sound manipulation within Scratch'
 	},
@@ -276,7 +276,7 @@ var extensions = [
 			'Doc': 'http://intel-realsense-extension-for-scratch.github.io/',
 			'Demo': 'http://scratchx.org/?url=http://intel-realsense-extension-for-scratch.github.io/public/extension/samples/Realsense_Block_Usages.sbx',
 			'JavaScript': 'http://intel-realsense-extension-for-scratch.github.io/public/extension/intel_realsense_extension.js',
-			'GitHub': ''
+			'GitHub': 'https://github.com/intel-realsense-extension-for-scratch/public/blob/gh-pages/extension/intel_realsense_extension.js'
 		},
 		'description': 'Hand Gestures, face tracking, voice commands'
 	},
@@ -288,7 +288,7 @@ var extensions = [
 			'Doc': 'http://khanning.github.io/scratch-isstracker-extension/',
 			'Demo': 'http://scratchx.org/?url=http://khanning.github.io/scratch-isstracker-extension/examples/ISS%20Tracker.sbx',
 			'JavaScript': 'https://khanning.github.io/scratch-isstracker-extension/iss_extension.js',
-			'GitHub': ''
+			'GitHub': 'https://github.com/khanning/scratch-isstracker-extension/blob/gh-pages/iss_extension.js'
 		},
 		'description': 'Lets you track the progress of the International Space Station in its orbit'
 	},
@@ -300,7 +300,7 @@ var extensions = [
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/JavaScript-extension',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/javascript.sbx',
 			'JavaScript': '../scratch-extensions/javascript.js',
-			'GitHub': ''
+			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/javascript.js'
 		},
 		'description': 'Evaluates Javascript'
 	},
@@ -312,7 +312,7 @@ var extensions = [
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/JavaScript-Dialogs-extension',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/javascript-dialogs.sbx',
 			'JavaScript': '../scratch-extensions/javascript-dialogs.js',
-			'GitHub': ''
+			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/javascript-dialogs.js'
 		},
 		'description': 'Opens JS dialog boxes'
 	},
@@ -322,7 +322,7 @@ var extensions = [
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/joystickExtension.js',
 			'JavaScript': 'https://cdn.rawgit.com/sayamindu/scratch-extensions/master/joystickExtension.js',
-			'GitHub': ''
+			'GitHub': 'https://github.com/sayamindu/scratch-extensions/blob/master/joystickExtension.js'
 		},
 		'description': 'Gets values of a joystick'
 	},
@@ -334,7 +334,7 @@ var extensions = [
 			'Doc': 'http://khanning.github.io/scratch-leapmotion-extension/',
 			'Demo': 'http://scratchx.org/?url=http://khanning.github.io/scratch-leapmotion-extension/examples/Leap%20Motion%20Example%20-%20Hand%20Skeleton.sbx',
 			'JavaScript': 'http://khanning.github.io/scratch-leapmotion-extension/leapmotion_extension.js',
-			'GitHub': ''
+			'GitHub': 'https://github.com/khanning/scratch-leapmotion-extension/blob/gh-pages/leapmotion_extension.js'
 		},
 		'description': 'Incorporates hand tracking into projects using the Leap Motion controller'
 	},
@@ -346,7 +346,7 @@ var extensions = [
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Link-Opener-extension',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/link-opener.sbx',
 			'JavaScript': '../scratch-extensions/link-opener.js',
-			'GitHub': ''
+			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/link-opener.js'
 		},
 		'description': 'Goes to websites'
 	},
@@ -358,11 +358,11 @@ var extensions = [
 			'Doc': 'http://khanning.github.io/scratch-littlebits-extension/',
 			'Demo': 'http://scratchx.org/?url=http://khanning.github.io/scratch-littlebits-extension/examples/littleBits%20-%20Move%20with%20Dimmer.sbx',
 			'JavaScript': 'http://khanning.github.io/scratch-littlebits-extension/littlebits_extension.js',
-			'GitHub': ''
+			'GitHub': 'https://github.com/khanning/scratch-littlebits-extension/blob/gh-pages/littlebits_extension.js'
 		},
 		'description': 'Control littleBits creations'
 	},
-	{
+	{// THIS IS NEXT
 		'title': 'Local Storage',
 		'author': ['Scratch Team'],
 		'links': {
