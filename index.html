@@ -17,7 +17,11 @@
 				if (filtered) {
 					var para = document.getElementById('filter-notice');
 					var searchTerm = querystring.searchname.replace('+', ' ');
-					para.innerHTML = 'Directory currently filtered by author "' + searchTerm + '" <a href="index.html">Clear filter</a>'; 
+					if (searchTerm.indexOf('%') == -1) {
+						para.innerHTML = 'Directory currently filtered by author "' + searchTerm + '" <a href="index.html">Clear filter</a>';
+					} else {
+						para.innerHTML = 'Filter error: use only characters that don\'t need escaping, and space. <a href="index.html">Clear filter</a>';
+					}
 				}
 				var thingy = true;
 				var row;
