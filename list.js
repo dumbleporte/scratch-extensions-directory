@@ -130,7 +130,7 @@ var extensions = [
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/Data.js',
 			'JavaScript': 'extensions/Data.js',
-			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/Data.js'
+			'GitHub': ''
 		},
 		'description': 'Adds data manipulating blocks and string operations'
 	},
