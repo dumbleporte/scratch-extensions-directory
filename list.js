@@ -187,7 +187,7 @@ var extensions = [
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/Extension_Loader.js',
 			'JavaScript': 'extensions/Extension_Loader.js',
-			'GitHub': '' //THIS IS NEXT
+			'GitHub': ''
 		},
 		'description': 'Loads extensions from URLs'
 	},
