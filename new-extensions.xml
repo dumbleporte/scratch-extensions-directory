@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+	<title>New Scratch Extensions</title>
+	<link>http://savaka2.github.io/scratch-extensions-directory/new-extensions.xml</link>
+	<description>New extensions in the Scratch Extensions Directory</description>
+	<item>
+		<title>GitHub Status API by savaka</title>
+		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/github-status-api.js</link>
+		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/github-status-api.js</guid>
+		<pubDate>Tue, 12 Jan 2016 03:36:20 EST</pubDate>
+		<description>Gets GitHub server status</description>
+	</item>
+</channel>
+</rss>
