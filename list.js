@@ -247,6 +247,18 @@ var extensions = [
 		'description': 'A thin wrapper around the Gamepad API which supports Xbox 360 controllers, most PS3 controllers, and other non-brand D-Pad controllers'
 	},
 	{
+		'title': 'GitHub Status API',
+		'author': ['savaka'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/github-status-api.js',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/GitHub-Status-API-extension',
+			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/github-status-api.sbx',
+			'JavaScript': '../scratch-extensions/github-status-api.js',
+			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/github-status-api.js'
+		},
+		'description': 'Performs hashing algorithms'
+	},
+	{
 		'title': 'Hash',
 		'author': ['savaka'],
 		'links': {
