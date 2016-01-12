@@ -256,7 +256,7 @@ var extensions = [
 			'JavaScript': '../scratch-extensions/github-status-api.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/github-status-api.js'
 		},
-		'description': 'Performs hashing algorithms'
+		'description': 'Gets GitHub server status'
 	},
 	{
 		'title': 'Hash',
