@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../savaka-style.css">
+		<title>Sitemap - Savaka's GitHub Page</title>
+		<script>
+			function doIt() {
+				var date = Date();
+				var end = date.substring(0,3) + ', ' + date.substring(8,10) + ' ' + date.substring(4,7) + ' ' + date.substring(11,24) + ' ' + date.substring(35,38);
+				var para = document.getElementById('result');
+				para.innerHTML = end;
+			};
+		</script>
+	</head>
+	<body>
+		<div id="header">
+		<a href="index.html"><img src="../images/savakafull-small.PNG" style="display:inline;"></a><img src="../images/dev.png" style="display:inline;"><span style="display:inline; font-size:2em; font-weight:bold; vertical-align:50%;">Developer page</span>
+		</div>
+		<div id="main">
+		<h1>RSS date generator</h1>
+		<button onclick="">go</button>
+		<p id="result"></p>
+		</div>
+	</body>
+</html>
