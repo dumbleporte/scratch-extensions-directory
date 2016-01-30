@@ -1,143 +1,143 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Scratch Extensions Directory - Savaka's GitHub Page</title>
-		<link rel="stylesheet" href="../savaka-style.css">
-		<script src="../siteswitcherscript.js"></script>
-		<script src="../querystring-object.js"></script>
-		<script src="list.js"></script>
-		<script>
-			window.onload = function() {
-				var theTable = document.getElementById('tableytable');
-				var tbody = document.getElementById('table-location');
-				var querystring = queryStringObj(location.search);
-				var filtered = (querystring.searchname != undefined);
-				var lowerlist = [];
+<head>
+	<meta charset="UTF-8">
+	<title>Scratch Extensions Directory - Savaka's GitHub Page</title>
+	<link rel="stylesheet" href="../savaka-style.css">
+	<script src="../siteswitcherscript.js"></script>
+	<script src="../querystring-object.js"></script>
+	<script src="list.js"></script>
+	<script>
+		window.onload = function() {
+			var theTable = document.getElementById('tableytable');
+			var tbody = document.getElementById('table-location');
+			var querystring = queryStringObj(location.search);
+			var filtered = (querystring.searchname != undefined);
+			var lowerlist = [];
+			if (filtered) {
+				var para = document.getElementById('filter-notice');
+				var searchTerm = querystring.searchname.replace('+', ' ');
+				if (searchTerm.indexOf('%') == -1) {
+					para.innerHTML = 'Directory currently filtered by author "' + searchTerm + '" <a href="index.html">Clear filter</a>';
+				} else {
+					para.innerHTML = 'Filter error: use only characters that don\'t need escaping, and space. <a href="index.html">Clear filter</a>';
+				}
+			}
+			var thingy = true;
+			var row;
+			var obj;
+			var authorz = '';
+			var linkz = '';
+			var linkz2 = '';
+			for (i = 0; i < extensions.length; i++) {
+				obj = extensions[i];
+				thingy = true;
 				if (filtered) {
-					var para = document.getElementById('filter-notice');
-					var searchTerm = querystring.searchname.replace('+', ' ');
-					if (searchTerm.indexOf('%') == -1) {
-						para.innerHTML = 'Directory currently filtered by author "' + searchTerm + '" <a href="index.html">Clear filter</a>';
-					} else {
-						para.innerHTML = 'Filter error: use only characters that don\'t need escaping, and space. <a href="index.html">Clear filter</a>';
+					lowerlist = [];
+					for (j = 0; j < obj.author.length; j++) {
+						lowerlist.push((obj.author[j]).toLowerCase());
+					}
+					if (lowerlist.indexOf(searchTerm.toLowerCase()) == -1) {
+						thingy = false;
 					}
 				}
-				var thingy = true;
-				var row;
-				var obj;
-				var authorz = '';
-				var linkz = '';
-				var linkz2 = '';
-				for (i = 0; i < extensions.length; i++) {
-					obj = extensions[i];
-					thingy = true;
-					if (filtered) {
-						lowerlist = [];
-						for (j = 0; j < obj.author.length; j++) {
-							lowerlist.push((obj.author[j]).toLowerCase());
-						}
-						if (lowerlist.indexOf(searchTerm.toLowerCase()) == -1) {
-							thingy = false;
-						}
+				if (thingy) {
+					row = document.createElement('tr');
+					authorz = obj.author.join(', ');
+					linkz = '';
+					if (obj.links.ScratchX != undefined) {
+						linkz += '<a href="' + obj.links.ScratchX + '">ScratchX</a><br/>';
 					}
-					if (thingy) {
-						row = document.createElement('tr');
-						authorz = obj.author.join(', ');
-						linkz = '';
-						if (obj.links.ScratchX != undefined) {
-							linkz += '<a href="' + obj.links.ScratchX + '">ScratchX</a><br/>';
-						}
-						if (obj.links.Doc != undefined) {
-							linkz += '<a href="' + obj.links.Doc + '">Doc</a><br/>';
-						}
-						if (obj.links.Demo != undefined) {
-							linkz += '<a href="' + obj.links.Demo + '">Demo</a><br/>';
-						}
-						if (obj.links.Demos != undefined) {
-							linkz += '<a href="' + obj.links.Demos + '">&darr; Demos</a><br/>';
-						}
-						if (obj.links.JavaScript != undefined) {
-							linkz += '<a href="' + obj.links.JavaScript + '">JavaScript</a><br/>';
-						}
-						if (obj.links.GitHub != undefined) {
-							linkz += '<a href="' + obj.links.GitHub + '">GitHub</a><br/>';
-						}
-						linkz2 = linkz.substring(0, linkz.length - 5);
-						row.innerHTML = '<td>' + obj.title + '</td><td>' + authorz + '</td><td>' + linkz2 + '</td><td>' + obj.description + '</td>';
-						tbody.appendChild(row);
+					if (obj.links.Doc != undefined) {
+						linkz += '<a href="' + obj.links.Doc + '">Doc</a><br/>';
 					}
+					if (obj.links.Demo != undefined) {
+						linkz += '<a href="' + obj.links.Demo + '">Demo</a><br/>';
+					}
+					if (obj.links.Demos != undefined) {
+						linkz += '<a href="' + obj.links.Demos + '">&darr; Demos</a><br/>';
+					}
+					if (obj.links.JavaScript != undefined) {
+						linkz += '<a href="' + obj.links.JavaScript + '">JavaScript</a><br/>';
+					}
+					if (obj.links.GitHub != undefined) {
+						linkz += '<a href="' + obj.links.GitHub + '">GitHub</a><br/>';
+					}
+					linkz2 = linkz.substring(0, linkz.length - 5);
+					row.innerHTML = '<td>' + obj.title + '</td><td>' + authorz + '</td><td>' + linkz2 + '</td><td>' + obj.description + '</td>';
+					tbody.appendChild(row);
 				}
-				if (tbody.innerHTML.length < 5) {
-					theTable.style = 'display:none;';
-					var nothing = document.createElement('h2');
-					nothing.innerHTML = 'Filter returned no results.';
-					var div = document.getElementById('main');
-					div.appendChild(nothing);
-				}
-			};
-		</script>
-	</head>
-	<body>
-		<div id="header">
-		<a href="../index.html"><img src="../images/savakafull-small.PNG" style="display:inline;"></a><span style="display:inline; font-size:2em; font-weight:bold; vertical-align:50%;"> <a href="javascript:switchSite();">&rarr; Scratch Extensions Directory</a></span> <img src="../images/home-button-selected.png"><a href="https://github.com/savaka2/scratch-extensions-directory"><img src="../images/gh.png" style="display:inline;"></a>
-		</div>
-		<div id="siteswitcher" style="display:none;">
-		<h1>Switch Site</h1>
-		<p>GitHub projects:</p>
+			}
+			if (tbody.innerHTML.length < 5) {
+				theTable.style = 'display:none;';
+				var nothing = document.createElement('h2');
+				nothing.innerHTML = 'Filter returned no results.';
+				var div = document.getElementById('main');
+				div.appendChild(nothing);
+			}
+		};
+	</script>
+</head>
+<body>
+	<div id="header">
+	<a href="../index.html"><img src="../images/savakafull-small.PNG" style="display:inline;"></a><span style="display:inline; font-size:2em; font-weight:bold; vertical-align:50%;"> <a href="javascript:switchSite();">&rarr; Scratch Extensions Directory</a></span> <img src="../images/home-button-selected.png"><a href="https://github.com/savaka2/scratch-extensions-directory"><img src="../images/gh.png" style="display:inline;"></a>
+	</div>
+	<div id="siteswitcher" style="display:none;">
+	<h1>Switch Site</h1>
+	<p>GitHub projects:</p>
+	<ul>
+		<li><a href="../scratch-extensions/index.html">Scratch Extensions</a></li>
+		<li><a href="../ext-open/index.html">Ext Open</a></li>
+	</ul>
+	<p><a href="javascript:showMore();">Show more</a></p>
+	<div id="morepages" style="display:none">
 		<ul>
-			<li><a href="../scratch-extensions/index.html">Scratch Extensions</a></li>
-			<li><a href="../ext-open/index.html">Ext Open</a></li>
+			<li><a href="../sbx-files/index.html">SBX Files</a></li>
+			<li><a href="../something/index.html">Something</a></li>
+			<li><a href="../scratch-extensions-directory/index.html">Scratch Extensions Directory</a></li>
 		</ul>
-		<p><a href="javascript:showMore();">Show more</a></p>
-		<div id="morepages" style="display:none">
-			<ul>
-				<li><a href="../sbx-files/index.html">SBX Files</a></li>
-				<li><a href="../something/index.html">Something</a></li>
-				<li><a href="../scratch-extensions-directory/index.html">Scratch Extensions Directory</a></li>
-			</ul>
-		</div>
-		<p><a href="javascript:switchSite();">Close siteswitcher</a></p>
-		</div>
-		<div id="main">
-		<h1>Scratch Extensions Directory</h1>
-		<!-- <div>
-			<h2 style="color:red;">Extension addition is currently closed</h2>
-			<p style="color:darkred;">Extensions may be submitted but they will not be added until I am done with this update.</p>
-		</div> -->
-		<ul>
-			<li><a href="http://scratchx.org/#faq">Click here</a> to learn more about Scratch extensions and ScratchX.</li>
-			<li><a href="https://github.com/savaka2/scratch-extensions-directory/issues/new">Click here</a> to submit your extension in an issue. Include the URL of your extension file (preferably hosted on GitHub Pages), and the URLs of docs or demos if you have them. If you want me to host it for you attach the file to the issue. Also include the name you want to be listed as (if you don&apos;t I&apos;ll use your username) and include a description (if you don&apos;t I will attempt to summarize what your extension does).</li>
-			<li><a href="https://scratch.mit.edu/discuss/topic/115258/#reply">Click here</a> to submit your extension if you hate GitHub (like I used to).</li>
-		</ul>
-		<p><a href="new-extensions.xml"><img src="../images/rss.png"> RSS feed</a></p>
-		<h2>Link key</h2>
-		<ul>
-			<li>ScratchX – Click to open the extension in ScratchX</li>
-			<li>Doc – Click for instructions for how to use the extension&apos;s blocks</li>
-			<li>Demo - Click to open the extension&apos;s demonstration sample project in ScratchX</li>
-			<li>JavaScript – Click to access the JavaScript file for the extension, or copy the link and paste it to load the extension on the ScratchX website (use this to load multiple extensions)</li>
-			<li>GitHub – View the JavaScript code for the extension on GitHub</li>
-		</ul>
-		<p style="text-align:center; background-color:yellow; padding:5px; border-radius:6px; color:black;"><span class="b">Disclaimer:</span> Extensions listed on this site are not tested by me or otherwise guaranteed safe.</p>
-		<p id="filter-notice"></p>
-		<form action="index.html">
-			<input type="text" name="searchname" value="" placeholder="Filter by author">
-			<input type="submit" value="Filter">
-		</form>
-		<a href="authors.html">Select author from list</a><br/><br/>
-		<table id="tableytable">
-			<thead>
-				<tr>
-					<th>Title</th>
-					<th>Author</th>
-					<th>Links</th>
-					<th>Description</th>
-				</tr>
-			</thead>
-			<tbody id="table-location">
-			</tbody>
-		</table>
-		</div>
-	</body>
+	</div>
+	<p><a href="javascript:switchSite();">Close siteswitcher</a></p>
+	</div>
+	<div id="main">
+	<h1>Scratch Extensions Directory</h1>
+	<!-- <div>
+		<h2 style="color:red;">Extension addition is currently closed</h2>
+		<p style="color:darkred;">Extensions may be submitted but they will not be added until I am done with this update.</p>
+	</div> -->
+	<ul>
+		<li><a href="http://scratchx.org/#faq">Click here</a> to learn more about Scratch extensions and ScratchX.</li>
+		<li><a href="https://github.com/savaka2/scratch-extensions-directory/issues/new">Click here</a> to submit your extension in an issue. Include the URL of your extension file (preferably hosted on GitHub Pages), and the URLs of docs or demos if you have them. If you want me to host it for you attach the file to the issue. Also include the name you want to be listed as (if you don&apos;t I&apos;ll use your username) and include a description (if you don&apos;t I will attempt to summarize what your extension does).</li>
+		<li><a href="https://scratch.mit.edu/discuss/topic/115258/#reply">Click here</a> to submit your extension if you hate GitHub (like I used to).</li>
+	</ul>
+	<p><a href="new-extensions.xml"><img src="../images/rss.png"> RSS feed</a></p>
+	<h2>Link key</h2>
+	<ul>
+		<li>ScratchX – Click to open the extension in ScratchX</li>
+		<li>Doc – Click for instructions for how to use the extension&apos;s blocks</li>
+		<li>Demo - Click to open the extension&apos;s demonstration sample project in ScratchX</li>
+		<li>JavaScript – Click to access the JavaScript file for the extension, or copy the link and paste it to load the extension on the ScratchX website (use this to load multiple extensions)</li>
+		<li>GitHub – View the JavaScript code for the extension on GitHub</li>
+	</ul>
+	<p style="text-align:center; background-color:yellow; padding:5px; border-radius:6px; color:black;"><span class="b">Disclaimer:</span> Extensions listed on this site are not tested by me or otherwise guaranteed safe.</p>
+	<p id="filter-notice"></p>
+	<form action="index.html">
+		<input type="text" name="searchname" value="" placeholder="Filter by author">
+		<input type="submit" value="Filter">
+	</form>
+	<a href="authors.html">Select author from list</a><br/><br/>
+	<table id="tableytable">
+		<thead>
+			<tr>
+				<th>Title</th>
+				<th>Author</th>
+				<th>Links</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		<tbody id="table-location">
+		</tbody>
+	</table>
+	</div>
+</body>
 </html>
