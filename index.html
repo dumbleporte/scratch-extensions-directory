@@ -72,16 +72,16 @@
 				theTable.style = 'display:none;';
 				var nothing = document.createElement('h2');
 				nothing.innerHTML = 'Filter returned no results.';
-				var div = document.getElementById('main');
+				var div = document.getElementsByTagName('main')[0];
 				div.appendChild(nothing);
 			}
 		};
 	</script>
 </head>
 <body>
-	<div id="header">
+	<header>
 	<a href="../index.html"><img src="../images/savakafull-small.PNG" style="display:inline;"></a><span style="display:inline; font-size:2em; font-weight:bold; vertical-align:50%;"> <a href="javascript:switchSite();">&rarr; Scratch Extensions Directory</a></span> <img src="../images/home-button-selected.png"><a href="https://github.com/savaka2/scratch-extensions-directory"><img src="../images/gh.png" style="display:inline;"></a>
-	</div>
+	</header>
 	<div id="siteswitcher" style="display:none;">
 	<h1>Switch Site</h1>
 	<p>GitHub projects:</p>
@@ -100,7 +100,7 @@
 	</div>
 	<p><a href="javascript:switchSite();">Close siteswitcher</a></p>
 	</div>
-	<div id="main">
+	<main>
 	<h1>Scratch Extensions Directory</h1>
 	<!-- <div>
 		<h2 style="color:red;">Extension addition is currently closed</h2>
@@ -139,6 +139,6 @@
 		<tbody id="table-location">
 		</tbody>
 	</table>
-	</div>
+	</main>
 </body>
 </html>
