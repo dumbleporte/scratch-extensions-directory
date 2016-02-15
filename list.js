@@ -484,6 +484,18 @@ var extensions = [
 		'description': 'Additional operators for Scratch'
 	},
 	{
+		'title': 'Objects',
+		'author': ['savaka'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/objects.js',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Objects-extension',
+			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/objects.sbx',
+			'JavaScript': '../scratch-extensions/objects.js',
+			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/objects.js'
+		},
+		'description': 'Create and store data in objects'
+	},
+	{
 		'title': 'PhysExt',
 		'author': ['StarStudios23'],
 		'links': {
