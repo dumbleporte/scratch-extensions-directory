@@ -5,6 +5,13 @@
 	<link>http://savaka2.github.io/scratch-extensions-directory/new-extensions.xml</link>
 	<description>New extensions in the Scratch Extensions Directory</description>
 	<item>
+		<title>Browser Actions by csf30816</title>
+		<link>http://scratchx.org/?url=https://gist.githubusercontent.com/anonymous/d2e80ac1a2e25118da38/raw/6ecb5080e60c982b03a89783c695384403391b64/Extension.js</link>
+		<guid>http://scratchx.org/?url=https://gist.githubusercontent.com/anonymous/d2e80ac1a2e25118da38/raw/6ecb5080e60c982b03a89783c695384403391b64/Extension.js</guid>
+		<pubDate>Sun, 21 Feb 2016 11:55:37 EST</pubDate>
+		<description>Opens many different web pages</description>
+	</item>
+	<item>
 		<title>Objects by savaka</title>
 		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/objects.js</link>
 		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/objects.js</guid>

@@ -52,6 +52,16 @@ var extensions = [
 		'description': 'Editor rotation!'
 	},
 	{
+		'title': 'Browser Actions',
+		'author': ['csf30816'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://gist.githubusercontent.com/anonymous/d2e80ac1a2e25118da38/raw/6ecb5080e60c982b03a89783c695384403391b64/Extension.js',
+			'JavaScript': 'https://gist.githubusercontent.com/anonymous/d2e80ac1a2e25118da38/raw/6ecb5080e60c982b03a89783c695384403391b64/Extension.js',
+			'GitHub': 'https://gist.github.com/anonymous/d2e80ac1a2e25118da38'
+		},
+		'description': 'Opens many different web pages'
+	},
+	{
 		'title': 'Browser Info and Language',
 		'author': ['andrewjcole'],
 		'links': {
