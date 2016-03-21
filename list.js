@@ -480,7 +480,7 @@ var extensions = [
 			'JavaScript': '../scratch-extensions/more-math.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/more-math.js'
 		},
-		'description': 'Adds a lot more math stuff'
+		'description': 'Many more math blocks'
 	},
 	{
 		'title': 'More Operators',
@@ -491,7 +491,7 @@ var extensions = [
 			'JavaScript': '../scratch-extensions/more-operators.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/more-operators.js'
 		},
-		'description': 'Additional operators for Scratch'
+		'description': 'Additional operator blocks and the when <> hat block'
 	},
 	{
 		'title': 'Objects',
@@ -720,7 +720,7 @@ var extensions = [
 			'JavaScript': '../scratch-extensions/text-stuff.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/text-stuff.js'
 		},
-		'description': 'Reads various properties of strings'
+		'description': 'Various properties of text'
 	},
 	{
 		'title': 'Text to Speech',
