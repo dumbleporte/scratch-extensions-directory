@@ -9,6 +9,6 @@ Required stuff:
 
 Optional stuff:
 
-* Code on GitHub (url should containm "/blob/"): 
+* Code on GitHub (url should contain "/blob/"): 
 * Docs URL: 
 * Demo project URL (preferably on GitHub Pages): 
