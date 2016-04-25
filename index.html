@@ -4,7 +4,15 @@
 	<meta charset="UTF-8">
 	<title>Scratch Extensions Directory - Savaka's GitHub Page</title>
 	<link rel="stylesheet" href="../savaka-style.css">
-	<script src="../siteswitcherscript.js"></script>
+	<script src="../templategenerator.js"></script>
+	<script>
+		var tg = {
+			levels: 1,
+			sitename: 'Scratch Extensions Directory',
+			repo: 'scratch-extensions-directory',
+			home: true
+		}
+	</script>
 	<script src="../querystring-object.js"></script>
 	<script src="list.js"></script>
 	<script>
@@ -79,21 +87,6 @@
 	</script>
 </head>
 <body>
-	<header>
-	<a href="../index.html"><img src="../images/savakafull-small.PNG" style="display:inline;"></a><span style="display:inline; font-size:2em; font-weight:bold; vertical-align:50%;"> <a href="javascript:switchSite();">&rarr; Scratch Extensions Directory</a></span> <img src="../images/home-button-selected.png"><a href="https://github.com/savaka2/scratch-extensions-directory"><img src="../images/gh.png" style="display:inline;"></a>
-	</header>
-	<div id="siteswitcher" style="display:none;">
-	<h1>Switch Site</h1>
-	<p>GitHub projects:</p>
-	<ul id="ssProjects">
-	</ul>
-	<p><a href="javascript:showMore();">Show more</a></p>
-	<div id="morepages" style="display:none">
-		<ul id="ssMore">
-		</ul>
-	</div>
-	<p><a href="javascript:switchSite();">Close siteswitcher</a></p>
-	</div>
 	<main>
 	<h1>Scratch Extensions Directory</h1>
 	<!-- <div>
