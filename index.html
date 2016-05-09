@@ -71,6 +71,9 @@
 					if (obj.links.GitHub != undefined) {
 						linkz += '<a href="' + obj.links.GitHub + '">GitHub</a><br/>';
 					}
+					if (obj.links.Gist != undefined) {
+						linkz += '<a href="' + obj.links.Gist + '">Gist</a><br/>';
+					}
 					linkz2 = linkz.substring(0, linkz.length - 5);
 					row.innerHTML = '<td>' + obj.title + '</td><td>' + authorz + '</td><td>' + linkz2 + '</td><td>' + obj.description + '</td>';
 					tbody.appendChild(row);
@@ -105,7 +108,8 @@
 		<li>Doc – Click for instructions for how to use the extension&apos;s blocks</li>
 		<li>Demo - Click to open the extension&apos;s demonstration sample project in ScratchX</li>
 		<li>JavaScript – Click to access the JavaScript file for the extension, or copy the link and paste it to load the extension on the ScratchX website (use this to load multiple extensions)</li>
-		<li>GitHub – View the JavaScript code for the extension on GitHub</li>
+		<li>GitHub – Click to view the JavaScript code for the extension on GitHub</li>
+		<li>Gist – Click to view the gist containing the JavaScript code for the extension on GitHub Gist</li>
 	</ul>
 	<p style="text-align:center; background-color:yellow; padding:5px; border-radius:6px; color:black;"><span class="b">Disclaimer:</span> Extensions listed on this site are not tested by me or otherwise guaranteed safe.</p>
 	<p id="filter-notice"></p>

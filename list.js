@@ -57,7 +57,7 @@ var extensions = [
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://gist.githubusercontent.com/anonymous/5b10f47f0936177bee31/raw/486287b9552cf925d0ef1f974bff072d615acb58/Extension.js',
 			'JavaScript': 'https://gist.githubusercontent.com/anonymous/5b10f47f0936177bee31/raw/486287b9552cf925d0ef1f974bff072d615acb58/Extension.js',
-			'GitHub': 'https://gist.github.com/anonymous/5b10f47f0936177bee31'
+			'Gist': 'https://gist.github.com/anonymous/5b10f47f0936177bee31'
 		},
 		'description': 'Opens many different web pages'
 	},
